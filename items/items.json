@@ -1,0 +1,158 @@
+[
+{
+    "name": "Power Beam",
+    "codes": "powerbeam",
+    "img": "images/items/powerbeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Wave Beam",
+    "codes": "wavebeam",
+    "img": "images/items/wavebeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Ice Beam",
+    "codes": "icebeam",
+    "img": "images/items/icebeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Plasma Beam",
+    "codes": "plasmabeam",
+    "img": "images/items/plasmabeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Charge Beam",
+    "codes": "chargebeam",
+    "img": "images/items/chargebeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Spazer",
+    "codes": "spazer",
+    "img": "images/items/spazer.png",
+    "type": "toggle"
+},
+{
+    "name": "Wavebuster",
+    "codes": "wavebuster",
+    "img": "images/items/wavebuster.png",
+    "type": "toggle"
+},
+{
+    "name": "Ice Spreader",
+    "codes": "icespreader",
+    "img": "images/items/icespreader.png",
+    "type": "toggle"
+},
+{
+    "name": "Incinerator",
+    "codes": "incinerator",
+    "img": "images/items/incinerator.png",
+    "type": "toggle"
+},
+{
+    "name": "Super Missile",
+    "codes": "supermissile",
+    "img": "images/items/supermissile.png",
+    "type": "toggle"
+},
+{
+    "name": "Power Suit",
+    "codes": "powersuit",
+    "img": "images/items/powersuit.png",
+    "type": "toggle"
+},
+{
+    "name": "Varia Suit",
+    "codes": "variasuit",
+    "img": "images/items/variasuit.png",
+    "type": "toggle"
+},
+{
+    "name": "Gravity Suit",
+    "codes": "gravitysuit",
+    "img": "images/items/gravitysuit.png",
+    "type": "toggle"
+},
+{
+    "name": "Phazon Suit",
+    "codes": "phazonsuit",
+    "img": "images/items/phazonsuit.png",
+    "type": "toggle"
+},
+{
+    "name": "Space Jump Boots",
+    "codes": "spacejumpboots",
+    "img": "images/items/spacejumpboots.png",
+    "type": "toggle"
+},
+{
+    "name": "Grapple Beam",
+    "codes": "grapplebeam",
+    "img": "images/items/grapplebeam.png",
+    "type": "toggle"
+},
+{
+    "name": "Screw Attack",
+    "codes": "screwattack",
+    "img": "images/items/screwattack.png",
+    "type": "toggle"
+},
+{
+    "name": "Morph Ball",
+    "codes": "morphball",
+    "img": "images/items/morphball.png",
+    "type": "toggle"
+},
+{
+    "name": "Morph Ball Bomb",
+    "codes": "morphballbomb",
+    "img": "images/items/morphballbomb.png",
+    "type": "toggle"
+},
+{
+    "name": "Boost Ball",
+    "codes": "boostball",
+    "img": "images/items/boostball.png",
+    "type": "toggle"
+},
+{
+    "name": "Spider Ball",
+    "codes": "spiderball",
+    "img": "images/items/spiderball.png",
+    "type": "toggle"
+},
+{
+    "name": "Missile Expansion",
+    "codes": "missiletank",
+    "img": "images/items/missiletank.png",
+    "type": "consumable",
+    "max_quantity": 250,
+    "increment": 5
+},
+{
+    "name": "Energy Tank",
+    "codes": "energytank",
+    "img": "images/items/energytank.png",
+    "type": "consumable",
+    "max_quantity": 14
+},
+{
+    "name": "Power Bomb Expansion",
+    "codes": "powerbombtank",
+    "img": "images/items/powerbombtank.png",
+    "type": "consumable",
+    "max_quantity": 10,
+    "increment": 2
+},
+{
+    "name": "Artifacts",
+    "codes": "artifacts",
+    "img": "images/items/artifacts.png",
+    "type": "consumable",
+    "max_quantity": 12
+}
+]

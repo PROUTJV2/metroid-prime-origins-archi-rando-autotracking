@@ -1,0 +1,23 @@
+{
+  "tracker_broadcast": {
+    "type": "container",
+    "background": "#000000",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "4, 4",
+        "margin": "10, 10",
+        "h_alignment": "stretch",
+        "item_size": 50,
+        "rows": [
+          [ "powerbeam", "wavebeam", "icebeam", "plasmabeam", "chargebeam" ],
+          [ "spazer", "wavebuster", "icespreader", "incinerator", "supermissile" ],
+          [ "powersuit", "variasuit", "gravitysuit", "phazonsuit" ],
+		  [ "spacejumpboots", "grapplebeam", "screwattack" ],
+          [ "morphball", "morphballbomb", "boostball", "spiderball"],
+          [ "energytank", "missiletank", "powerbombtank", "artifacts" ]
+        ]
+      }
+    ]
+  }
+}
