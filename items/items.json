@@ -3,7 +3,7 @@
     "name": "Power Beam",
     "codes": "powerbeam",
     "img": "images/items/powerbeam.png",
-    "type": "toggle"
+    "type": "static"
 },
 {
     "name": "Wave Beam",
@@ -63,7 +63,7 @@
     "name": "Power Suit",
     "codes": "powersuit",
     "img": "images/items/powersuit.png",
-    "type": "toggle"
+    "type": "static"
 },
 {
     "name": "Varia Suit",
@@ -100,6 +100,22 @@
     "codes": "screwattack",
     "img": "images/items/screwattack.png",
     "type": "toggle"
+},
+{
+    "name": "Progressive Grapple",
+    "codes": "progressivegrapple",
+    "type": "progressive",
+    
+    "stages": [
+    {
+        "img": "images/items/spacejumpboots.png",
+        "codes": "spacejumpboots"
+    },
+    {
+        "img": "images/items/grapplebeam.png",
+        "codes": "grapplebeam"
+    }
+]
 },
 {
     "name": "Morph Ball",

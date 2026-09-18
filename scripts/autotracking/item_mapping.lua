@@ -18,6 +18,7 @@ ITEM_MAPPING = {
 	[17] = {{"spiderball", "toggle"}},
 	[18] = {{"grapplebeam", "toggle"}},
 	[19] = {{"supermissile", "toggle"}},
+	[20] = {{"progressivegrapple","progressive"}},
 	[21] = {{"artifacts", "consumable"}},
 	[22] = {{"artifacts", "consumable"}},
 	[23] = {{"artifacts", "consumable"}},

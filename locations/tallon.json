@@ -8,6 +8,7 @@
         "name": "Alcove",
         "sections": [
           {
+            "name": "Stump",
             "chest_unopened_img": "images/items/spacejumpboots.png",
             "access_rules": [
               "NoLogic",
@@ -27,7 +28,9 @@
       {
         "name": "Arbor Chamber",
         "sections": [
-          {}
+          {
+            "name": "Stump"
+          }
         ],
         "access_rules": [
           "NoLogic",
@@ -40,6 +43,7 @@
         "name": "Artifact Temple",
         "sections": [
           {
+            "name": "Before Cipher",
             "chest_unopened_img": "images/items/artifacts0.png"
           }
         ],
@@ -52,7 +56,7 @@
         "name": "Biohazard Containment",
         "sections": [
           {
-            "name": "Cordite locker",
+            "name": "Green Display Case",
             "access_rules": [
               "NoLogic",
               "$can_super_missile",
@@ -114,7 +118,7 @@
         "name": "Frigate Crash Site",
         "sections": [
           {
-            "name": "Tangled roots",
+            "name": "Underwater Ledge",
             "access_rules": [
               "NoLogic",
               "$can_space_jump,$can_move_underwater",
@@ -134,7 +138,9 @@
       {
         "name": "Great Tree Chamber",
         "sections": [
-          {}
+          {
+            "name": "Chamber Missile"
+          }
         ],
         "access_rules": [
           "NoLogic",
@@ -170,7 +176,7 @@
         "name": "Hydro Access Tunnel",
         "sections": [
           {
-            "name": "Underwater bomb puzzle",
+            "name": "Tunnel",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
               "NoLogic",
@@ -214,7 +220,7 @@
         "name": "Life Grove Tunnel",
         "sections": [
           {
-            "name": "Boost Ball loop",
+            "name": "Boost Ball Ramp",
             "access_rules": [
               "NoLogic",
               "$can_power_bomb|2,$can_bomb,$can_boost",
@@ -233,11 +239,11 @@
         "name": "Life Grove",
         "sections": [
           {
-            "name": "Start",
+            "name": "Cave",
             "chest_unopened_img": "images/items/screwattack.png"
           },
           {
-            "name": "Underwater Spinner",
+            "name": "Lake",
             "chest_unopened_img": "images/items/artifacts0.png",
             "access_rules": [
               "NoLogic",
@@ -256,6 +262,7 @@
         "name": "Overgrown Cavern",
         "sections": [
           {
+            "name": "Tunnel",
             "access_rules": [
               "NoLogic",
               "$can_morph_ball"
@@ -273,7 +280,7 @@
         "name": "Root Cave",
         "sections": [
           {
-            "name": "Behind vines",
+            "name": "Top Ledge",
             "access_rules": [
               "NoLogic",
               "$can_space_jump,$can_grapple,^$can_xray",
@@ -388,13 +395,8 @@
         "name": "Transport Tunnel B",
         "sections": [
           {
-            "name": "Under the bridge"
+            "name": "Below Bridge"
           }
-        ],
-        "access_rules": [
-          "NoLogic",
-          "@Tallon Overworld/Root Cave,$can_open|Tallon Overworld|Root Cave|Transport Tunnel B",
-          "@Tallon Overworld/Transport to Magmoor Caverns East"
         ]
       },
       {

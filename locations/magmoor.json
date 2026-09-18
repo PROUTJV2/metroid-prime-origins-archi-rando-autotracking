@@ -18,7 +18,7 @@
         "name": "Fiery Shores",
         "sections": [
           {
-            "name": "Morph Track",
+            "name": "Top Left Tunnel",
             "access_rules": [
               "NoLogic",
               "$can_bomb",
@@ -28,7 +28,7 @@
             ]
           },
           {
-            "name": "Warrior Shrine Tunnel",
+            "name": "from Warrior Shrine",
             "chest_unopened_img": "images/items/powerbombexpansion.png",
             "access_rules": [
               "NoLogic",
@@ -69,7 +69,7 @@
         "name": "Lava Lake",
         "sections": [
           {
-            "name": "Weakened column",
+            "name": "Rock Spire",
             "chest_unopened_img": "images/items/artifacts0.png",
             "access_rules": [
               "NoLogic",
@@ -93,7 +93,7 @@
         "name": "Magmoor Workstation",
         "sections": [
           {
-            "name": "Channel door puzzle",
+            "name": "Lava",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
               "NoLogic",
@@ -152,6 +152,7 @@
         "name": "Plasma Processing",
         "sections": [
           {
+            "name":"Plasma Chamber",
             "chest_unopened_img": "images/items/plasmabeam.png"
           }
         ],
@@ -179,7 +180,7 @@
         "name": "Shore Tunnel",
         "sections": [
           {
-            "name": "Bendezium tunnel",
+            "name": "Glass Tube",
             "chest_unopened_img": "images/items/icespreader.png",
             "access_rules": [
               "NoLogic",
@@ -208,7 +209,9 @@
       {
         "name": "Storage Cavern",
         "sections": [
-          {}
+          {
+            "name":"Storage Missile"
+          }
         ],
         "access_rules": [
           "NoLogic",
@@ -270,7 +273,7 @@
         "name": "Transport Tunnel A",
         "sections": [
           {
-            "name": "Bomb jump puzzle",
+            "name": "Tunnel",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
               "NoLogic",
@@ -306,7 +309,7 @@
         "name": "Triclops Pit",
         "sections": [
           {
-            "name": "Weakened column",
+            "name": "Top Ledge",
             "access_rules": [
               "NoLogic",
               "^$can_xray,$can_space_jump,$can_missile",
@@ -354,6 +357,7 @@
         "name": "Warrior Shrine",
         "sections": [
           {
+            "name": "Statue",
             "chest_unopened_img": "images/items/artifacts0.png"
           }
         ],

@@ -8,7 +8,7 @@
         "name": "Central Dynamo",
         "sections": [
           {
-            "name": "Morph Ball maze",
+            "name": "Sentry Drone",
             "chest_unopened_img": "images/items/powerbombexpansion.png",
             "access_rules": [
               "NoLogic",
@@ -71,7 +71,7 @@
         "name": "Elite Control Access",
         "sections": [
           {
-            "name": "Explosive crate",
+            "name":"Behind Crate",
             "access_rules": [
               "NoLogic",
               "$can_morph_ball",
@@ -134,7 +134,7 @@
             ]
           },
           {
-            "name": "Laser",
+            "name": "Mining Laser",
             "access_rules": [
               "NoLogic",
               "$can_bomb,$can_boost,$can_space_jump,$can_scan,[$can_combat_beam_pirates|PowerBeam],[$can_combat_beam_pirates|WaveBeam]",
@@ -164,7 +164,7 @@
         "name": "Fungal Hall Access",
         "sections": [
           {
-            "name": "Under a mushroom",
+            "name":"In Phazon",
             "access_rules": [
               "NoLogic",
               "$can_morph_ball,$can_phazon",
@@ -183,7 +183,7 @@
         "name": "Fungal Hall B",
         "sections": [
           {
-            "name": "Sandstone floor",
+            "name":"Tunnel",
             "access_rules": [
               "NoLogic",
               "$can_bomb",
@@ -204,7 +204,7 @@
         "name": "Main Quarry",
         "sections": [
           {
-            "name": "Crane",
+            "name":"Crane",
             "access_rules": [
               "NoLogic",
               "$can_spider,$can_bomb,^$can_thermal,$can_wave_beam,$can_scan,$can_space_jump",
@@ -245,7 +245,7 @@
         "name": "Metroid Quarantine A",
         "sections": [
           {
-            "name": "Bendezium cave wall",
+            "name":"Top",
             "access_rules": [
               "NoLogic",
               "[$can_combat_mines],$can_scan,$can_power_bomb,$can_space_jump,^$can_xray",
@@ -265,7 +265,7 @@
         "name": "Metroid Quarantine B",
         "sections": [
           {
-            "name": "Cordite tank",
+            "name":"Green Display Case",
             "access_rules": [
               "NoLogic",
               "[$can_combat_mines],[$can_combat_beam_pirates|PlasmaBeam],@Elite Quarters Access,$can_super_missile",
@@ -322,7 +322,7 @@
         "name": "Phazon Mining Tunnel",
         "sections": [
           {
-            "name": "Phazon maze",
+            "name":"In Phazon",
             "chest_unopened_img": "images/items/artifacts0.png",
             "access_rules": [
               "NoLogic",
@@ -344,7 +344,7 @@
         "name": "Phazon Processing Center",
         "sections": [
           {
-            "name": "Bendezium wall",
+            "name":"Bottom",
             "access_rules": [
               "NoLogic",
               "$can_spider,$can_bomb,$can_space_jump,$can_power_bomb",
@@ -366,6 +366,7 @@
         "name": "Processing Center Access",
         "sections": [
           {
+            "name":"Center",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
               "NoLogic",
@@ -442,7 +443,7 @@
         "name": "Security Access A",
         "sections": [
           {
-            "name": "Bendezium gate",
+            "name":"Bottom",
             "access_rules": [
               "NoLogic",
               "$can_power_bomb"
@@ -467,6 +468,7 @@
         "name": "Storage Depot A",
         "sections": [
           {
+            "name":"Depot Item",
             "chest_unopened_img": "images/items/flamethrower.png"
           }
         ],
@@ -479,6 +481,7 @@
         "name": "Storage Depot B",
         "sections": [
           {
+            "name":"Depot Item",
             "chest_unopened_img": "images/items/grapplebeam.png"
           }
         ],
@@ -521,7 +524,7 @@
         "name": "Ventilation Shaft",
         "sections": [
           {
-            "name": "Turn on the system",
+            "name":"Break Ventilation",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
               "NoLogic",

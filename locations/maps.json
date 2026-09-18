@@ -7,7 +7,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Alcove/"
+                        "ref": "Tallon Overworld/Alcove/Stump"
                     }
                 ],
                 "map_locations": [
@@ -32,7 +32,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Artifact Temple/"
+                        "ref": "Tallon Overworld/Artifact Temple/Before Cipher"
                     }
                 ],
                 "map_locations": [
@@ -57,7 +57,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Arbor Chamber/"
+                        "ref": "Tallon Overworld/Arbor Chamber/Stump"
                     }
                 ],
                 "map_locations": [
@@ -75,7 +75,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Biohazard Containment/Cordite locker"
+                        "ref": "Tallon Overworld/Biohazard Containment/Green Display Case"
                     }
                 ],
                 "map_locations": [
@@ -125,7 +125,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Frigate Crash Site/Tangled roots"
+                        "ref": "Tallon Overworld/Frigate Crash Site/Underwater Ledge"
                     }
                 ],
                 "map_locations": [
@@ -150,7 +150,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Great Tree Chamber/"
+                        "ref": "Tallon Overworld/Great Tree Chamber/Chamber Missile"
                     }
                 ],
                 "map_locations": [
@@ -175,7 +175,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Hydro Access Tunnel/Underwater bomb puzzle"
+                        "ref": "Tallon Overworld/Hydro Access Tunnel/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -200,7 +200,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Landing Site/Morph Ball tunnel"
+                        "ref": "Tallon Overworld/Landing Site/Morph Ball Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -225,7 +225,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Life Grove Tunnel/Boost Ball loop"
+                        "ref": "Tallon Overworld/Life Grove Tunnel/Boost Ball Ramp"
                     }
                 ],
                 "map_locations": [
@@ -242,12 +242,12 @@
                 "name": "Life Grove",
                 "sections": [
                     {
-                        "name": "Start",
-                        "ref": "Tallon Overworld/Life Grove/Start"
+                        "name": "Cave",
+                        "ref": "Tallon Overworld/Life Grove/Cave"
                     },
                     {
-                        "name": "Underwater Spinner",
-                        "ref": "Tallon Overworld/Life Grove/Underwater Spinner"
+                        "name": "Lake",
+                        "ref": "Tallon Overworld/Life Grove/Lake"
                     }
                 ],
                 "map_locations": [
@@ -265,7 +265,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Overgrown Cavern/"
+                        "ref": "Tallon Overworld/Overgrown Cavern/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -290,7 +290,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Root Cave/Behind vines"
+                        "ref": "Tallon Overworld/Root Cave/Top Ledge"
                     }
                 ],
                 "map_locations": [
@@ -308,7 +308,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Tallon Overworld/Transport Tunnel B/Under the bridge"
+                        "ref": "Tallon Overworld/Transport Tunnel B/Below Bridge"
                     }
                 ],
                 "map_locations": [
@@ -425,7 +425,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Antechamber/"
+                        "ref": "Chozo Ruins/Antechamber/Bottom Chamber"
                     }
                 ],
                 "map_locations": [
@@ -486,7 +486,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Crossway/Morph Ball elevator"
+                        "ref": "Chozo Ruins/Crossway/Boost Ball Ramp"
                     }
                 ],
                 "map_locations": [
@@ -510,12 +510,12 @@
                 "name": "Dynamo",
                 "sections": [
                     {
-                        "name": "Lower",
-                        "ref": "Chozo Ruins/Dynamo/Lower"
+                        "name": "Bottom",
+                        "ref": "Chozo Ruins/Dynamo/Bottom"
                     },
                     {
-                        "name": "Spider Track",
-                        "ref": "Chozo Ruins/Dynamo/Spider Track"
+                        "name": "Top",
+                        "ref": "Chozo Ruins/Dynamo/Top"
                     }
                 ],
                 "map_locations": [
@@ -540,7 +540,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Elder Chamber/Plasma Beam bomb slot"
+                        "ref": "Chozo Ruins/Elder Chamber/Chamber Item"
                     }
                 ],
                 "map_locations": [
@@ -557,12 +557,12 @@
                 "name": "Furnace",
                 "sections": [
                     {
-                        "name": "Spider Tracks",
-                        "ref": "Chozo Ruins/Furnace/Spider Tracks"
+                        "name": "Boost Ceiling",
+                        "ref": "Chozo Ruins/Furnace/Boost Ceiling"
                     },
                     {
-                        "name": "Inside Furnace",
-                        "ref": "Chozo Ruins/West Furnace Access/Inside Furnace"
+                        "name": "Chamber",
+                        "ref": "Chozo Ruins/West Furnace Access/Chamber"
                     }
                 ],
                 "map_locations": [
@@ -587,7 +587,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Hall of the Elders/Ice Beam bomb slot"
+                        "ref": "Chozo Ruins/Hall of the Elders/Ceiling"
                     }
                 ],
                 "map_locations": [
@@ -630,7 +630,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Gathering Hall/Sandstone wall"
+                        "ref": "Chozo Ruins/Gathering Hall/Behind Bomb Blocks"
                     }
                 ],
                 "map_locations": [
@@ -655,7 +655,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Magma Pool/Bendezium wall"
+                        "ref": "Chozo Ruins/Magma Pool/Behind Bendezium"
                     }
                 ],
                 "map_locations": [
@@ -680,7 +680,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Main Plaza/Half-Pipe"
+                        "ref": "Chozo Ruins/Main Plaza/Boost Ball Ramp"
                     }
                 ],
                 "map_locations": [
@@ -698,7 +698,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Main Plaza/Grapple Ledge"
+                        "ref": "Chozo Ruins/Main Plaza/Top Ledge"
                     }
                 ],
                 "map_locations": [
@@ -716,7 +716,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Main Plaza/Tree"
+                        "ref": "Chozo Ruins/Main Plaza/Super Missile Blocks"
                     }
                 ],
                 "map_locations": [
@@ -734,7 +734,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Main Plaza/Locked Door"
+                        "ref": "Chozo Ruins/Main Plaza/Lower Ledge"
                     }
                 ],
                 "map_locations": [
@@ -752,7 +752,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Ruined Fountain/Spider tracks"
+                        "ref": "Chozo Ruins/Ruined Fountain/Top Right Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -777,7 +777,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Ruined Gallery/Missile Wall"
+                        "ref": "Chozo Ruins/Ruined Gallery/Left Wall"
                     }
                 ],
                 "map_locations": [
@@ -795,7 +795,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Ruined Gallery/Tunnel"
+                        "ref": "Chozo Ruins/Ruined Gallery/Right Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -813,7 +813,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Ruined Nursery/Morph Ball maze"
+                        "ref": "Chozo Ruins/Ruined Nursery/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -838,15 +838,15 @@
                 "sections": [
                     {
                         "name": "Plated Beetle",
-                        "ref": "Chozo Ruins/Ruined Shrine/Plated Beetle"
+                        "ref": "Chozo Ruins/Ruined Shrine/Beetle Horde"
                     },
                     {
                         "name": "Half-Pipe",
-                        "ref": "Chozo Ruins/Ruined Shrine/Half-Pipe"
+                        "ref": "Chozo Ruins/Ruined Shrine/Ceiling"
                     },
                     {
                         "name": "Lower Tunnel",
-                        "ref": "Chozo Ruins/Ruined Shrine/Lower Tunnel"
+                        "ref": "Chozo Ruins/Ruined Shrine/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -889,7 +889,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Sunchamber/Ghosts"
+                        "ref": "Chozo Ruins/Sunchamber/Golden Guard"
                     }
                 ],
                 "map_locations": [
@@ -907,7 +907,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Tower Chamber/"
+                        "ref": "Chozo Ruins/Tower Chamber/Chamber Item"
                     }
                 ],
                 "map_locations": [
@@ -932,7 +932,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Tower of Light/Weakened columns"
+                        "ref": "Chozo Ruins/Tower of Light/Atop the Tower"
                     }
                 ],
                 "map_locations": [
@@ -957,7 +957,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Training Chamber/Hidden spider track"
+                        "ref": "Chozo Ruins/Training Chamber/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -982,7 +982,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Training Chamber Access/Leaves"
+                        "ref": "Chozo Ruins/Training Chamber Access/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1007,7 +1007,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Transport Access North/"
+                        "ref": "Chozo Ruins/Transport Access North/Missile"
                     }
                 ],
                 "map_locations": [
@@ -1105,7 +1105,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Watery Hall/Scan Puzzle"
+                        "ref": "Chozo Ruins/Watery Hall/Top"
                     }
                 ],
                 "map_locations": [
@@ -1123,7 +1123,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Watery Hall/Underwater"
+                        "ref": "Chozo Ruins/Watery Hall/Underwater Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1141,7 +1141,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Watery Hall Access/Missile wall"
+                        "ref": "Chozo Ruins/Watery Hall Access/Behind Missile Blocks"
                     }
                 ],
                 "map_locations": [
@@ -1159,7 +1159,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Chozo Ruins/Vault/"
+                        "ref": "Chozo Ruins/Vault/Vault Chamber"
                     }
                 ],
                 "map_locations": [
@@ -1212,12 +1212,12 @@
                 "name": "Fiery Shores",
                 "sections": [
                     {
-                        "name": "Morph Track",
-                        "ref": "Magmoor Caverns/Fiery Shores/Morph Track"
+                        "name": "Top Left Tunnel",
+                        "ref": "Magmoor Caverns/Fiery Shores/Top Left Tunnel"
                     },
                     {
-                        "name": "Warrior Shrine Tunnel",
-                        "ref": "Magmoor Caverns/Fiery Shores/Warrior Shrine Tunnel"
+                        "name": "from Warrior Shrine",
+                        "ref": "Magmoor Caverns/Fiery Shores/from Warrior Shrine"
                     }
                 ],
                 "map_locations": [
@@ -1235,7 +1235,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Lava Lake/Weakened column"
+                        "ref": "Magmoor Caverns/Lava Lake/Rock Spire"
                     }
                 ],
                 "map_locations": [
@@ -1260,7 +1260,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Magmoor Workstation/Channel door puzzle"
+                        "ref": "Magmoor Caverns/Magmoor Workstation/Lava"
                     }
                 ],
                 "map_locations": [
@@ -1284,8 +1284,7 @@
                 "name": "Plasma Processing",
                 "sections": [
                     {
-                        "name": null,
-                        "ref": "Magmoor Caverns/Plasma Processing/"
+                        "ref": "Magmoor Caverns/Plasma Processing/Plasma Chamber"
                     }
                 ],
                 "map_locations": [
@@ -1310,7 +1309,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Shore Tunnel/Bendezium tunnel"
+                        "ref": "Magmoor Caverns/Shore Tunnel/Glass Tube"
                     }
                 ],
                 "map_locations": [
@@ -1328,7 +1327,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Storage Cavern/"
+                        "ref": "Magmoor Caverns/Storage Cavern/Storage Missile"
                     }
                 ],
                 "map_locations": [
@@ -1353,7 +1352,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Transport Tunnel A/Bomb jump puzzle"
+                        "ref": "Magmoor Caverns/Transport Tunnel A/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1458,7 +1457,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Triclops Pit/Weakened column"
+                        "ref": "Magmoor Caverns/Triclops Pit/Top Ledge"
                     }
                 ],
                 "map_locations": [
@@ -1483,7 +1482,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Magmoor Caverns/Warrior Shrine/"
+                        "ref": "Magmoor Caverns/Warrior Shrine/Statue"
                     }
                 ],
                 "map_locations": [
@@ -1559,7 +1558,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Chozo Ice Temple/"
+                        "ref": "Phendrana Drifts/Chozo Ice Temple/Frozen Floor"
                     }
                 ],
                 "map_locations": [
@@ -1584,7 +1583,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Control Tower/Collapse the tower"
+                        "ref": "Phendrana Drifts/Control Tower/Collapse the Tower"
                     }
                 ],
                 "map_locations": [
@@ -1609,7 +1608,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Frost Cave/Under the ice"
+                        "ref": "Phendrana Drifts/Frost Cave/Underwater"
                     }
                 ],
                 "map_locations": [
@@ -1637,8 +1636,8 @@
                         "ref": "Phendrana Drifts/Gravity Chamber/Underwater"
                     },
                     {
-                        "name": "Grapple Ledge",
-                        "ref": "Phendrana Drifts/Gravity Chamber/Grapple Ledge"
+                        "name": "Spike Tunnel",
+                        "ref": "Phendrana Drifts/Gravity Chamber/Spike Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1663,7 +1662,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Ice Ruins East/Behind Ice"
+                        "ref": "Phendrana Drifts/Ice Ruins East/Ice Cube"
                     }
                 ],
                 "map_locations": [
@@ -1681,7 +1680,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Ice Ruins East/Spider Track"
+                        "ref": "Phendrana Drifts/Ice Ruins East/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1699,7 +1698,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Ice Ruins West/Below ice"
+                        "ref": "Phendrana Drifts/Ice Ruins West/Ice Cube"
                     }
                 ],
                 "map_locations": [
@@ -1724,7 +1723,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Observatory/Above hologram"
+                        "ref": "Phendrana Drifts/Observatory/Boost Ball Puzzle"
                     }
                 ],
                 "map_locations": [
@@ -1749,7 +1748,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Phendrana Canyon/"
+                        "ref": "Phendrana Drifts/Phendrana Canyon/Top Left Ledge"
                     }
                 ],
                 "map_locations": [
@@ -1774,7 +1773,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Phendrana Shorelines/Behind Ice"
+                        "ref": "Phendrana Drifts/Phendrana Shorelines/Underwater Ice Cube"
                     }
                 ],
                 "map_locations": [
@@ -1792,7 +1791,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Phendrana Shorelines/Spider Track"
+                        "ref": "Phendrana Drifts/Phendrana Shorelines/Hidden Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1835,7 +1834,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Quarantine Monitor/"
+                        "ref": "Phendrana Drifts/Quarantine Monitor/Quarantine Missile"
                     }
                 ],
                 "map_locations": [
@@ -1860,7 +1859,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Research Core/Deactivate the field"
+                        "ref": "Phendrana Drifts/Research Core/Blackout"
                     }
                 ],
                 "map_locations": [
@@ -1885,7 +1884,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Research Lab Aether/Tank"
+                        "ref": "Phendrana Drifts/Research Lab Aether/Display Case"
                     }
                 ],
                 "map_locations": [
@@ -1903,7 +1902,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Research Lab Aether/Morph Track"
+                        "ref": "Phendrana Drifts/Research Lab Aether/Hidden Passage"
                     }
                 ],
                 "map_locations": [
@@ -1921,7 +1920,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Research Lab Hydra/Cordite column"
+                        "ref": "Phendrana Drifts/Research Lab Hydra/Green Display Case"
                     }
                 ],
                 "map_locations": [
@@ -1946,7 +1945,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Ruined Courtyard/Morph tunnel"
+                        "ref": "Phendrana Drifts/Ruined Courtyard/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -1971,7 +1970,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Security Cave/"
+                        "ref": "Phendrana Drifts/Security Cave/Security Power Bomb"
                     }
                 ],
                 "map_locations": [
@@ -1989,7 +1988,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Storage Cave/Bendezium wall"
+                        "ref": "Phendrana Drifts/Storage Cave/Storage Artifact"
                     }
                 ],
                 "map_locations": [
@@ -2007,7 +2006,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phendrana Drifts/Transport Access/"
+                        "ref": "Phendrana Drifts/Transport Access/Ice Cube"
                     }
                 ],
                 "map_locations": [
@@ -2097,7 +2096,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Central Dynamo/Morph Ball maze"
+                        "ref": "Phazon Mines/Central Dynamo/Sentry Drone"
                     }
                 ],
                 "map_locations": [
@@ -2129,7 +2128,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Elite Control Access/Explosive crate"
+                        "ref": "Phazon Mines/Elite Control Access/Behind Crate"
                     }
                 ],
                 "map_locations": [
@@ -2211,7 +2210,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Elite Research/Laser"
+                        "ref": "Phazon Mines/Elite Research/Mining Laser"
                     }
                 ],
                 "map_locations": [
@@ -2236,7 +2235,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Fungal Hall Access/Under a mushroom"
+                        "ref": "Phazon Mines/Fungal Hall Access/In Phazon"
                     }
                 ],
                 "map_locations": [
@@ -2268,7 +2267,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Fungal Hall B/Sandstone floor"
+                        "ref": "Phazon Mines/Fungal Hall B/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -2332,7 +2331,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Metroid Quarantine A/Bendezium cave wall"
+                        "ref": "Phazon Mines/Metroid Quarantine A/Top"
                     }
                 ],
                 "map_locations": [
@@ -2364,7 +2363,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Metroid Quarantine B/Cordite tank"
+                        "ref": "Phazon Mines/Metroid Quarantine B/Green Display Case"
                     }
                 ],
                 "map_locations": [
@@ -2396,7 +2395,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Phazon Mining Tunnel/Phazon maze"
+                        "ref": "Phazon Mines/Phazon Mining Tunnel/In Phazon"
                     }
                 ],
                 "map_locations": [
@@ -2428,7 +2427,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Phazon Processing Center/Bendezium wall"
+                        "ref": "Phazon Mines/Phazon Processing Center/Bottom"
                     }
                 ],
                 "map_locations": [
@@ -2453,7 +2452,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Processing Center Access/"
+                        "ref": "Phazon Mines/Processing Center Access/Center"
                     }
                 ],
                 "map_locations": [
@@ -2562,7 +2561,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Security Access A/Bendezium gate"
+                        "ref": "Phazon Mines/Security Access A/Bottom"
                     }
                 ],
                 "map_locations": [
@@ -2594,7 +2593,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Storage Depot A/"
+                        "ref": "Phazon Mines/Storage Depot A/Depot Item"
                     }
                 ],
                 "map_locations": [
@@ -2626,7 +2625,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Storage Depot B/"
+                        "ref": "Phazon Mines/Storage Depot B/Depot Item"
                     }
                 ],
                 "map_locations": [
@@ -2658,7 +2657,7 @@
                 "sections": [
                     {
                         "name": null,
-                        "ref": "Phazon Mines/Ventilation Shaft/Turn on the system"
+                        "ref": "Phazon Mines/Ventilation Shaft/Break Ventilation"
                     }
                 ],
                 "map_locations": [
@@ -2740,15 +2739,15 @@
                 "sections": [
                     {
                         "name": "Tunnel",
-                        "ref": "Tallon Overworld/Life Grove Tunnel/Boost Ball loop"
+                        "ref": "Tallon Overworld/Life Grove Tunnel/Boost Ball Ramp"
                     },
                     {
-                        "name": "Start",
-                        "ref": "Tallon Overworld/Life Grove/Start"
+                        "name": "Cave",
+                        "ref": "Tallon Overworld/Life Grove/Cave"
                     },
                     {
-                        "name": "Underwater Spinner",
-                        "ref": "Tallon Overworld/Life Grove/Underwater Spinner"
+                        "name": "Lake",
+                        "ref": "Tallon Overworld/Life Grove/Lake"
                     }
                 ],
                 "map_locations": [
@@ -2762,19 +2761,19 @@
                 ]
             },
             {
-                "name": "Root area",
+                "name": "Root Area",
                 "sections": [
                     {
                         "name": "Root Cave",
-                        "ref": "Tallon Overworld/Root Cave/Behind vines"
+                        "ref": "Tallon Overworld/Root Cave/Top Ledge"
                     },
                     {
                         "name": "Arbor Chamber",
-                        "ref": "Tallon Overworld/Arbor Chamber/"
+                        "ref": "Tallon Overworld/Arbor Chamber/Stump"
                     },
                     {
                         "name": "Transport Tunnel B",
-                        "ref": "Tallon Overworld/Transport Tunnel B/Under the bridge"
+                        "ref": "Tallon Overworld/Transport Tunnel B/Below Bridge"
                     }
                 ],
                 "map_locations": [
@@ -2814,15 +2813,15 @@
                 "sections": [
                     {
                         "name": "Magma Pool",
-                        "ref": "Chozo Ruins/Magma Pool/Bendezium wall"
+                        "ref": "Chozo Ruins/Magma Pool/Behind Bendezium"
                     },
                     {
                         "name": "Training Chamber Access",
-                        "ref": "Chozo Ruins/Training Chamber Access/Leaves"
+                        "ref": "Chozo Ruins/Training Chamber Access/Tunnel"
                     },
                     {
                         "name": "Training Chamber",
-                        "ref": "Chozo Ruins/Training Chamber/Hidden spider track"
+                        "ref": "Chozo Ruins/Training Chamber/Tunnel"
                     }
                 ]
             },
@@ -2831,11 +2830,11 @@
                 "sections": [
                     {
                         "name": "Ice Beam bomb slot",
-                        "ref": "Chozo Ruins/Hall of the Elders/Ice Beam bomb slot"
+                        "ref": "Chozo Ruins/Hall of the Elders/Ceiling"
                     },
                     {
                         "name": "Plasma Beam bomb slot",
-                        "ref": "Chozo Ruins/Elder Chamber/Plasma Beam bomb slot"
+                        "ref": "Chozo Ruins/Elder Chamber/Chamber Item"
                     }
                 ],
                 "map_locations": [
@@ -2857,7 +2856,7 @@
                     },
                     {
                         "name": "Transport Access North",
-                        "ref": "Chozo Ruins/Transport Access North/"
+                        "ref": "Chozo Ruins/Transport Access North/Missile"
                     }
                 ]
             },
@@ -2866,19 +2865,19 @@
                 "sections": [
                     {
                         "name": "Half-Pipe",
-                        "ref": "Chozo Ruins/Main Plaza/Half-Pipe"
+                        "ref": "Chozo Ruins/Main Plaza/Boost Ball Ramp"
                     },
                     {
                         "name": "Grapple Ledge",
-                        "ref": "Chozo Ruins/Main Plaza/Grapple Ledge"
+                        "ref": "Chozo Ruins/Main Plaza/Top Ledge"
                     },
                     {
                         "name": "Tree",
-                        "ref": "Chozo Ruins/Main Plaza/Tree"
+                        "ref": "Chozo Ruins/Main Plaza/Super Missile Blocks"
                     },
                     {
                         "name": "Locked Door",
-                        "ref": "Chozo Ruins/Main Plaza/Locked Door"
+                        "ref": "Chozo Ruins/Main Plaza/Lower Ledge"
                     }
                 ],
                 "map_locations": [
@@ -2896,11 +2895,11 @@
                 "sections": [
                     {
                         "name": "Missile Wall",
-                        "ref": "Chozo Ruins/Ruined Gallery/Missile Wall"
+                        "ref": "Chozo Ruins/Ruined Gallery/Left Wall"
                     },
                     {
                         "name": "Tunnel",
-                        "ref": "Chozo Ruins/Ruined Gallery/Tunnel"
+                        "ref": "Chozo Ruins/Ruined Gallery/Right Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -2922,7 +2921,7 @@
                     },
                     {
                         "name": "Ghosts",
-                        "ref": "Chozo Ruins/Sunchamber/Ghosts"
+                        "ref": "Chozo Ruins/Sunchamber/Golden Guard"
                     }
                 ],
                 "map_locations": [
@@ -2940,11 +2939,11 @@
                 "sections": [
                     {
                         "name": "Weakened columns",
-                        "ref": "Chozo Ruins/Tower of Light/Weakened columns"
+                        "ref": "Chozo Ruins/Tower of Light/Atop the Tower"
                     },
                     {
                         "name": "Tower Chamber",
-                        "ref": "Chozo Ruins/Tower Chamber/"
+                        "ref": "Chozo Ruins/Tower Chamber/Chamber Item"
                     }
                 ]
             },
@@ -2953,15 +2952,15 @@
                 "sections": [
                     {
                         "name": "Scan Puzzle",
-                        "ref": "Chozo Ruins/Watery Hall/Scan Puzzle"
+                        "ref": "Chozo Ruins/Watery Hall/Top"
                     },
                     {
                         "name": "Underwater",
-                        "ref": "Chozo Ruins/Watery Hall/Underwater"
+                        "ref": "Chozo Ruins/Watery Hall/Underwater Tunnel"
                     },
                     {
                         "name": "Watery Hall Access",
-                        "ref": "Chozo Ruins/Watery Hall Access/"
+                        "ref": "Chozo Ruins/Watery Hall Access"
                     }
                 ],
                 "map_locations": [
@@ -2979,19 +2978,19 @@
                 "sections": [
                     {
                         "name": "Morph Track",
-                        "ref": "Magmoor Caverns/Fiery Shores/Morph Track"
+                        "ref": "Magmoor Caverns/Fiery Shores/Top Left Tunnel"
                     },
                     {
                         "name": "Warrior Shrine Tunnel",
-                        "ref": "Magmoor Caverns/Fiery Shores/Warrior Shrine Tunnel"
+                        "ref": "Magmoor Caverns/Fiery Shores/from Warrior Shrine"
                     },
                     {
                         "name": "Warrior Shrine",
-                        "ref": "Magmoor Caverns/Warrior Shrine/"
+                        "ref": "Magmoor Caverns/Warrior Shrine/Statue"
                     },
                     {
                         "name": "Shore Tunnel",
-                        "ref": "Magmoor Caverns/Shore Tunnel/Bendezium tunnel"
+                        "ref": "Magmoor Caverns/Shore Tunnel/Glass Tube"
                     }
                 ],
                 "map_locations": [
@@ -3009,11 +3008,11 @@
                 "sections": [
                     {
                         "name": "Behind Ice",
-                        "ref": "Phendrana Drifts/Ice Ruins East/Behind Ice"
+                        "ref": "Phendrana Drifts/Ice Ruins East/Ice Cube"
                     },
                     {
                         "name": "Spider Track",
-                        "ref": "Phendrana Drifts/Ice Ruins East/Spider Track"
+                        "ref": "Phendrana Drifts/Ice Ruins East/Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -3031,11 +3030,11 @@
                 "sections": [
                     {
                         "name": "Behind Ice",
-                        "ref": "Phendrana Drifts/Phendrana Shorelines/Behind Ice"
+                        "ref": "Phendrana Drifts/Phendrana Shorelines/Underwater Ice Cube"
                     },
                     {
                         "name": "Spider Track",
-                        "ref": "Phendrana Drifts/Phendrana Shorelines/Spider Track"
+                        "ref": "Phendrana Drifts/Phendrana Shorelines/Hidden Tunnel"
                     }
                 ],
                 "map_locations": [
@@ -3053,11 +3052,11 @@
                 "sections": [
                     {
                         "name": "Tank",
-                        "ref": "Phendrana Drifts/Research Lab Aether/Tank"
+                        "ref": "Phendrana Drifts/Research Lab Aether/Display Case"
                     },
                     {
                         "name": "Morph Track",
-                        "ref": "Phendrana Drifts/Research Lab Aether/Morph Track"
+                        "ref": "Phendrana Drifts/Research Lab Aether/Hidden Passage"
                     }
                 ],
                 "map_locations": [
@@ -3075,11 +3074,11 @@
                 "sections": [
                     {
                         "name": "Security Cave",
-                        "ref": "Phendrana Drifts/Security Cave/"
+                        "ref": "Phendrana Drifts/Security Cave/Security Power Bomb"
                     },
                     {
                         "name": "Storage Cave",
-                        "ref": "Phendrana Drifts/Storage Cave/Bendezium wall"
+                        "ref": "Phendrana Drifts/Storage Cave/Storage Artifact"
                     }
                 ],
                 "map_locations": [
@@ -3097,11 +3096,11 @@
                 "sections": [
                     {
                         "name": "Elite Control Access",
-                        "ref": "Phazon Mines/Elite Control Access/Explosive crate"
+                        "ref": "Phazon Mines/Elite Control Access/Behind Crate"
                     },
                     {
                         "name": "Ventilation Shaft",
-                        "ref": "Phazon Mines/Ventilation Shaft/Turn on the system"
+                        "ref": "Phazon Mines/Ventilation Shaft/Break Ventilation"
                     }
                 ],
                 "map_locations": [
@@ -3123,7 +3122,7 @@
                     },
                     {
                         "name": "Laser",
-                        "ref": "Phazon Mines/Elite Research/Laser"
+                        "ref": "Phazon Mines/Elite Research/Mining Laser"
                     }
                 ],
                 "map_locations": [
@@ -3145,7 +3144,7 @@
                     },
                     {
                         "name": "Security Access A",
-                        "ref": "Phazon Mines/Security Access A/"
+                        "ref": "Phazon Mines/Security Access A/Bottom"
                     }
                 ]
             },
@@ -3154,11 +3153,11 @@
                 "sections": [
                     {
                         "name": "Bendezium wall",
-                        "ref": "Phazon Mines/Phazon Processing Center/Bendezium wall"
+                        "ref": "Phazon Mines/Phazon Processing Center/Bottom"
                     },
                     {
                         "name": "Processing Center Access",
-                        "ref": "Phazon Mines/Processing Center Access/"
+                        "ref": "Phazon Mines/Processing Center Access/Center"
                     }
                 ],
                 "map_locations": [
