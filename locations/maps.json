@@ -3171,7 +3171,7 @@
                 ]
             },
             {
-                "name": "Final Bosses",
+                "name": "Final Boss",
                 "access_rules": [
                     "@Tallon Overworld/Artifact Temple,$has_required_artifact_count,[$can_missile]"
                 ],

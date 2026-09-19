@@ -7,7 +7,7 @@
       {
         "name": "Aether Lab Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/East Tower,@doors/Phendrana Drifts/WaveBeam,$can_scan",
           "@Phendrana Drifts/Research Lab Aether,@doors/Phendrana Drifts/WaveBeam,[$can_combat_labs],$can_space_jump"
         ]
@@ -15,7 +15,7 @@
       {
         "name": "Canyon Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins West,$can_open|Phendrana Drifts|Ice Ruins West|Canyon Entryway",
           "@Phendrana Drifts/Phendrana Canyon,$can_boost,$can_scan",
           "@Phendrana Drifts/Phendrana Canyon,$can_space_jump"
@@ -24,7 +24,7 @@
       {
         "name": "Chamber Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Gravity Chamber,@doors/Phendrana Drifts/WaveBeam,$can_move_underwater,$can_space_jump",
           "@Phendrana Drifts/Hunter Cave,@doors/Phendrana Drifts/WaveBeam,$can_space_jump,$can_grapple"
         ]
@@ -36,7 +36,7 @@
             "name": "Sheegoth",
             "chest_unopened_img": "images/items/wavebeam.png",
             "access_rules": [
-              "NoLogic",
+              
               "$can_space_jump",
               "[$trick|chapel_of_elders_escape_no_sj|2],$can_defeat_sheegoth,$can_bomb,$can_wave_beam",
               "{}"
@@ -44,7 +44,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chapel Tunnel,$can_bomb",
           "@Phendrana Drifts/Chapel Tunnel,$can_power_bomb|2",
           "@Phendrana Drifts/Chapel Tunnel,$can_ball_jump"
@@ -53,7 +53,7 @@
       {
         "name": "Chapel Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chapel of the Elders,$can_defeat_sheegoth,$can_space_jump,$can_wave_beam",
           "@Phendrana Drifts/Chapel of the Elders,[$trick|chapel_of_elders_escape_no_sj|2],$can_defeat_sheegoth,$can_bomb,$can_wave_beam",
           "@Phendrana Drifts/Chozo Ice Temple,$can_bomb,$can_space_jump,$can_missile",
@@ -67,13 +67,13 @@
             "name": "Frozen Floor",
             "chest_unopened_img": "images/items/artifacts0.png",
             "access_rules": [
-              "NoLogic",
+              
               "$can_morph_ball,$can_space_jump,$can_melt_ice"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chapel Tunnel,$can_bomb",
           "@Phendrana Drifts/Chapel Tunnel,$can_power_bomb|2",
           "@Phendrana Drifts/Chapel Tunnel,$can_ball_jump",
@@ -89,7 +89,7 @@
             "name": "Collapse the Tower",
             "chest_unopened_img": "images/items/artifacts0.png",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_labs],$can_space_jump,$can_missile,$can_melt_ice,$can_bomb",
               "[$can_combat_labs],$can_space_jump,$can_missile,$can_melt_ice,$can_ball_jump",
               "[$trick|control_tower_item_no_plasma|1],$can_bomb,$can_missile,$can_space_jump",
@@ -99,7 +99,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/East Tower,$can_open|Phendrana Drifts|East Tower|Control Tower",
           "@Phendrana Drifts/West Tower,@doors/Phendrana Drifts/WaveBeam,$can_scan"
         ]
@@ -107,7 +107,7 @@
       {
         "name": "Courtyard Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins West,$can_open|Phendrana Drifts|Ice Ruins West|Courtyard Entryway,$can_space_jump",
           "@Phendrana Drifts/Ruined Courtyard"
         ]
@@ -115,7 +115,7 @@
       {
         "name": "East Tower",
         "access_rules": [
-          "NoLogic",
+          
           "StartingRoomEastTower",
           "@Phendrana Drifts/Aether Lab Entryway,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Control Tower,$can_open|Phendrana Drifts|Control Tower|East Tower,[$can_combat_labs]"
@@ -124,7 +124,7 @@
       {
         "name": "Frost Cave Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frost Cave,@doors/Phendrana Drifts/WaveBeam,$can_space_jump",
           "@Phendrana Drifts/Frozen Pike,$can_open|Phendrana Drifts|Frozen Pike|Frost Cave Access,$can_space_jump"
         ]
@@ -135,7 +135,7 @@
           {
             "name": "Underwater",
             "access_rules": [
-              "NoLogic",
+              
               "$can_grapple,$can_missile,$can_move_underwater",
               "[$trick|frost_cave_no_grapple|1],$can_missile,$can_space_jump,$can_move_underwater",
               "Softlocks,$can_grapple,$can_missile,[]",
@@ -145,7 +145,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frost Cave Access,@doors/Phendrana Drifts/WaveBeam,$can_morph_ball",
           "@Phendrana Drifts/Save Station C,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Upper Edge Tunnel,$can_open|Phendrana Drifts|Upper Edge Tunnel|Frost Cave,$can_morph_ball"
@@ -154,7 +154,7 @@
       {
         "name": "Frozen Pike",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frost Cave Access,$can_open|Phendrana Drifts|Frost Cave Access|Frozen Pike,$can_morph_ball",
           "@Phendrana Drifts/Hunter Cave Access,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Pike Access,@doors/Phendrana Drifts/WaveBeam",
@@ -168,7 +168,7 @@
             "name": "Underwater",
             "chest_unopened_img": "images/items/gravitysuit.png",
             "access_rules": [
-              "NoLogic",
+              
               "$can_move_underwater,$can_space_jump",
               "Softlocks,SpaceJump,[]"
             ]
@@ -176,7 +176,7 @@
           {
             "name": "Spike Tunnel",
             "access_rules": [
-              "NoLogic",
+              
               "$can_move_underwater,$can_space_jump,$can_melt_ice,$can_grapple",
               "[$trick|gravity_chamber_no_grapple_plasma|2],$can_space_jump,$can_move_underwater",
               "@Phendrana Drifts/Lake Tunnel,$can_space_jump,$can_melt_ice,$can_grapple,[]",
@@ -186,7 +186,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chamber Access,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Lake Tunnel,@doors/Phendrana Drifts/WaveBeam"
         ]
@@ -194,7 +194,7 @@
       {
         "name": "Hunter Cave Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,$can_move_underwater,$can_space_jump",
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,[$trick|frozen_pike_no_gravity_suit|2],$can_space_jump",
           "@Phendrana Drifts/Hunter Cave,@doors/Phendrana Drifts/WaveBeam,$can_missile,$can_grapple,$can_space_jump"
@@ -203,7 +203,7 @@
       {
         "name": "Hunter Cave",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chamber Access,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Hunter Cave Access,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Lake Tunnel,@doors/Phendrana Drifts/WaveBeam",
@@ -213,7 +213,7 @@
       {
         "name": "Hydra Lab Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Research Entrance,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Research Lab Hydra,@doors/Phendrana Drifts/WaveBeam,[$can_combat_labs],$can_scan"
         ]
@@ -221,7 +221,7 @@
       {
         "name": "Ice Ruins Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins East",
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Ice Ruins Access,$can_missile,$can_scan"
         ]
@@ -232,20 +232,20 @@
           {
             "name": "Ice Cube",
             "access_rules": [
-              "NoLogic",
+              
               "$can_melt_ice"
             ]
           },
           {
             "name": "Tunnel",
             "access_rules": [
-              "NoLogic",
+              
               "$can_spider"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins Access,$can_missile",
           "@Phendrana Drifts/Ice Ruins Access,$can_charge_beam",
           "@Phendrana Drifts/Plaza Walkway"
@@ -258,14 +258,14 @@
             "name":"Ice Cube",
             "chest_unopened_img": "images/items/powerbombexpansion.png",
             "access_rules": [
-              "NoLogic",
+              
               "$can_melt_ice,$can_space_jump,$can_missile",
               "{SpaceJump, $can_missile}"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Canyon Entryway,$can_open|Phendrana Drifts|Canyon Entryway|Ice Ruins West",
           "@Phendrana Drifts/Courtyard Entryway,$can_open|Phendrana Drifts|Courtyard Entryway|Ice Ruins West",
           "@Phendrana Drifts/Ruins Entryway,$can_open|Phendrana Drifts|Ruins Entryway|Ice Ruins West"
@@ -274,7 +274,7 @@
       {
         "name": "Lake Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Gravity Chamber,@doors/Phendrana Drifts/WaveBeam,$can_move_underwater,$can_space_jump",
           "@Phendrana Drifts/Hunter Cave,@doors/Phendrana Drifts/WaveBeam,$can_space_jump,$can_missile"
         ]
@@ -282,7 +282,7 @@
       {
         "name": "Lower Edge Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Hunter Cave,$can_open|Phendrana Drifts|Hunter Cave|Lower Edge Tunnel,$can_space_jump",
           "@Phendrana Drifts/Phendrana's Edge,@doors/Phendrana Drifts/WaveBeam"
         ]
@@ -290,14 +290,14 @@
       {
         "name": "Map Station",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Research Entrance"
         ]
       },
       {
         "name": "North Quarantine Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Quarantine Access",
           "@Phendrana Drifts/Quarantine Cave,@doors/Phendrana Drifts/WaveBeam,[$can_combat_thardus],$can_spider,^$can_thermal",
           "@Phendrana Drifts/Quarantine Cave,@doors/Phendrana Drifts/WaveBeam,[$trick|quarantine_to_north_courtyard_slope_jump|2],$can_space_jump"
@@ -306,7 +306,7 @@
       {
         "name": "Observatory Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Observatory,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Research Lab Hydra,$can_open|Phendrana Drifts|Research Lab Hydra|Observatory Access,[$can_combat_labs],$can_scan"
         ]
@@ -318,7 +318,7 @@
             "name": "Boost Ball Puzzle",
             "chest_unopened_img": "images/items/supermissile.png",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_labs],$_can_climb_observatory_via_puzzle",
               "[$trick|observatory_puzzle_skip|2],$can_space_jump,$can_scan",
               "{ScanVisor,SpaceJump,BoostBall}",
@@ -327,7 +327,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Observatory Access,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Save Station D,$can_open|Phendrana Drifts|Save Station D|Observatory",
           "@Phendrana Drifts/West Tower Entrance,$can_open|Phendrana Drifts|West Tower Entrance|Observatory"
@@ -342,7 +342,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Canyon Entryway"
         ]
       },
@@ -352,7 +352,7 @@
           {
             "name": "Underwater Ice Cube",
             "access_rules": [
-              "NoLogic",
+              
               "$can_melt_ice",
               "{}"
             ]
@@ -360,7 +360,7 @@
           {
             "name": "Hidden Tunnel",
             "access_rules": [
-              "NoLogic",
+              
               "$can_spider,$can_super_missile,$can_scan,$can_space_jump",
               "[$trick|shorelines_spider_track_no_sj|2],$can_bomb,$can_spider,$can_super_missile,$can_scan",
               "{}"
@@ -368,7 +368,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins Access,$can_open|Phendrana Drifts|Ice Ruins Access|Phendrana Shorelines,$can_missile",
           "@Phendrana Drifts/Ice Ruins Access,$can_open|Phendrana Drifts|Ice Ruins Access|Phendrana Shorelines,$can_charge_beam",
           "@Phendrana Drifts/Plaza Walkway,$can_open|Phendrana Drifts|Plaza Walkway|Phendrana Shorelines",
@@ -384,7 +384,7 @@
       {
         "name": "Phendrana's Edge",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Lower Edge Tunnel,@doors/Phendrana Drifts/WaveBeam,$can_morph_ball",
           "@Phendrana Drifts/Security Cave,$can_morph_ball",
           "@Phendrana Drifts/Storage Cave,@doors/Phendrana Drifts/PlasmaBeam",
@@ -394,7 +394,7 @@
       {
         "name": "Pike Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,$can_space_jump",
           "@Phendrana Drifts/Research Core,$can_open|Phendrana Drifts|Research Core|Pike Access"
         ]
@@ -402,7 +402,7 @@
       {
         "name": "Plaza Walkway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins East",
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Plaza Walkway,$can_space_jump",
           "@Phendrana Drifts/Ruins Entryway,$can_open|Phendrana Drifts|Ruins Entryway|Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Plaza Walkway"
@@ -411,7 +411,7 @@
       {
         "name": "Quarantine Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/North Quarantine Tunnel,@doors/Phendrana Drifts/WaveBeam,$can_morph_ball",
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Quarantine Access,$_can_reach_top_of_ruined_courtyard,$can_wave_beam,^$can_thermal,$can_super_missile",
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Quarantine Access,[$trick|phendrana_courtyard_quarantine_access_no_boost_spider|1],$can_space_jump,$can_wave_beam,^$can_thermal,$can_super_missile"
@@ -424,14 +424,14 @@
             "name": "Thardus",
             "chest_unopened_img": "images/items/spiderball.png",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_thardus],^$can_thermal",
               "Softlocks,[]"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/North Quarantine Tunnel,@doors/Phendrana Drifts/WaveBeam,$can_morph_ball",
           "@Phendrana Drifts/Quarantine Monitor,$can_morph_ball",
           "@Phendrana Drifts/South Quarantine Tunnel,$can_open|Phendrana Drifts|South Quarantine Tunnel|Quarantine Cave,$can_morph_ball"
@@ -445,7 +445,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "StartingRoomQuarantineMonitor",
           "@Phendrana Drifts/Quarantine Cave,[$can_combat_thardus],$can_spider,$can_grapple",
           "@Phendrana Drifts/Quarantine Cave,[$trick|monitor_cave_no_grapple|2],$can_spider,$can_space_jump,$can_scan"
@@ -454,7 +454,7 @@
       {
         "name": "Research Core Access",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Research Core,@doors/Phendrana Drifts/WaveBeam,[$can_combat_labs],^$can_thermal,$can_wave_beam",
           "@Phendrana Drifts/Research Lab Aether,$can_open|Phendrana Drifts|Research Lab Aether|Research Core Access,[$can_combat_labs],$can_missile",
           "@Phendrana Drifts/Research Lab Aether,$can_open|Phendrana Drifts|Research Lab Aether|Research Core Access,$can_power_bomb"
@@ -467,7 +467,7 @@
             "name":"Blackout",
             "chest_unopened_img": "images/items/spazer.png",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_labs],^$can_thermal,$can_scan,$can_wave_beam",
               "Softlocks,ScanVisor,[]",
               "{}"
@@ -475,7 +475,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Pike Access,$can_open|Phendrana Drifts|Pike Access|Research Core",
           "@Phendrana Drifts/Research Core Access,@doors/Phendrana Drifts/WaveBeam"
         ]
@@ -483,7 +483,7 @@
       {
         "name": "Research Entrance",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Hydra Lab Entryway,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Map Station",
           "@Phendrana Drifts/Specimen Storage,@doors/Phendrana Drifts/WaveBeam"
@@ -496,7 +496,7 @@
             "name": "Display Case",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_labs],$can_missile",
               "{}"
             ]
@@ -504,7 +504,7 @@
           {
             "name": "Hidden Passage",
             "access_rules": [
-              "NoLogic",
+              
               "[$can_combat_labs],$can_space_jump",
               "[$trick|research_lab_aether_item_dbj|1],$can_bomb",
               "{}"
@@ -512,7 +512,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Aether Lab Entryway,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Research Core Access,$can_open|Phendrana Drifts|Research Core Access|Research Lab Aether"
         ]
@@ -523,14 +523,14 @@
           {
             "name":"Green Display Case",
             "access_rules": [
-              "NoLogic",
+              
               "$can_super_missile,$can_scan",
               "{XRayVisor}"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Hydra Lab Entryway,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Observatory Access,$can_open|Phendrana Drifts|Observatory Access|Research Lab Hydra"
         ]
@@ -542,14 +542,14 @@
             "name":"Tunnel",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
-              "NoLogic",
+              
               "$_can_reach_top_of_ruined_courtyard",
               "[$trick|phendrana_courtyard_item_no_boost_spider|1],$can_space_jump,$can_morph_ball"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Courtyard Entryway",
           "@Phendrana Drifts/Quarantine Access,$can_open|Phendrana Drifts|Quarantine Access|Ruined Courtyard",
           "@Phendrana Drifts/Save Station A,$can_open|Phendrana Drifts|Save Station A|Ruined Courtyard",
@@ -559,7 +559,7 @@
       {
         "name": "Ruins Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ice Ruins West,$can_open|Phendrana Drifts|Ice Ruins West|Ruins Entryway",
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Ruins Entryway,$can_space_jump",
           "@Phendrana Drifts/Plaza Walkway,$can_open|Phendrana Drifts|Plaza Walkway|Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Ruins Entryway"
@@ -568,7 +568,7 @@
       {
         "name": "Save Station A",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Save Station A,$_can_reach_top_of_ruined_courtyard",
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Save Station A,[$trick|phendrana_courtyard_no_boost_spider|1],$can_space_jump"
         ]
@@ -576,7 +576,7 @@
       {
         "name": "Save Station B",
         "access_rules": [
-          "NoLogic",
+          
           "StartingRoomSaveStationB",
           "@Phendrana Drifts/Phendrana Shorelines"
         ]
@@ -584,14 +584,14 @@
       {
         "name": "Save Station C",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frost Cave,@doors/Phendrana Drifts/WaveBeam,$can_space_jump,$can_missile"
         ]
       },
       {
         "name": "Save Station D",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Observatory,$can_open|Phendrana Drifts|Observatory|Save Station D,[$can_combat_labs],$_can_climb_observatory_via_puzzle",
           "@Phendrana Drifts/Observatory,$can_open|Phendrana Drifts|Observatory|Save Station D,[$trick|observatory_puzzle_skip|2],$can_space_jump,$can_scan"
         ]
@@ -605,7 +605,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Phendrana's Edge,$can_grapple,$can_morph_ball,$can_space_jump",
           "@Phendrana Drifts/Phendrana's Edge,[$trick|phendranas_edge_security_cavern_no_grapple|1],$can_morph_ball,$can_space_jump"
         ]
@@ -613,7 +613,7 @@
       {
         "name": "Shoreline Entrance",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Shoreline Entrance",
           "@Phendrana Drifts/Transport to Magmoor Caverns West"
         ]
@@ -621,7 +621,7 @@
       {
         "name": "South Quarantine Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Quarantine Cave,$can_open|Phendrana Drifts|Quarantine Cave|South Quarantine Tunnel,[$can_combat_thardus],^$can_thermal,$can_bomb,$can_spider",
           "@Phendrana Drifts/Quarantine Cave,$can_open|Phendrana Drifts|Quarantine Cave|South Quarantine Tunnel,[$can_combat_thardus],^$can_thermal,$can_space_jump,$can_grapple",
           "@Phendrana Drifts/Transport to Magmoor Caverns South,@doors/Phendrana Drifts/WaveBeam"
@@ -630,7 +630,7 @@
       {
         "name": "Specimen Storage",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Research Entrance,@doors/Phendrana Drifts/WaveBeam",
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Specimen Storage,$_can_reach_top_of_ruined_courtyard",
           "@Phendrana Drifts/Ruined Courtyard,$can_open|Phendrana Drifts|Ruined Courtyard|Specimen Storage,[$trick|phendrana_courtyard_no_boost_spider|1],$can_space_jump"
@@ -645,7 +645,7 @@
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Phendrana's Edge,@doors/Phendrana Drifts/PlasmaBeam,$can_grapple,^$can_thermal,$can_power_bomb,$can_space_jump",
           "@Phendrana Drifts/Phendrana's Edge,@doors/Phendrana Drifts/PlasmaBeam,$can_grapple,^$can_xray,$can_power_bomb,$can_space_jump",
           "@Phendrana Drifts/Phendrana's Edge,@doors/Phendrana Drifts/PlasmaBeam,[$trick|phendranas_edge_storage_cavern_no_grapple|1],^$can_thermal,$can_power_bomb,$can_space_jump",
@@ -655,7 +655,7 @@
       {
         "name": "Temple Entryway",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Chozo Ice Temple",
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Temple Entryway,$can_space_jump",
           "@Phendrana Drifts/Phendrana Shorelines,$can_open|Phendrana Drifts|Phendrana Shorelines|Temple Entryway,[$trick|ice_temple_no_sj|2],$can_bomb"
@@ -668,14 +668,14 @@
             "name":"Ice Cube",
             "chest_unopened_img": "images/items/energytank.png",
             "access_rules": [
-              "NoLogic",
+              
               "$can_melt_ice",
               "{}"
             ]
           }
         ],
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,$can_bomb,$can_space_jump",
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,$can_ball_jump,$can_space_jump",
           "@Phendrana Drifts/Frozen Pike,@doors/Phendrana Drifts/WaveBeam,[$trick|frozen_pike_no_bombs|2],$can_space_jump",
@@ -685,7 +685,7 @@
       {
         "name": "Transport to Magmoor Caverns South",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/South Quarantine Tunnel,@doors/Phendrana Drifts/WaveBeam,$can_morph_ball",
           "@Phendrana Drifts/Transport Access,$can_open|Phendrana Drifts|Transport Access|Transport to Magmoor Caverns South",
           "ElevatorsNormal,@Magmoor Caverns/Transport to Phendrana Drifts South,$can_access_elevators",
@@ -695,7 +695,7 @@
       {
         "name": "Transport to Magmoor Caverns West",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Shoreline Entrance,$can_charge_beam",
           "@Phendrana Drifts/Shoreline Entrance,$can_missile",
           "ElevatorsNormal,@Magmoor Caverns/Transport to Phendrana Drifts North,$can_access_elevators",
@@ -705,7 +705,7 @@
       {
         "name": "Upper Edge Tunnel",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Frost Cave,$can_open|Phendrana Drifts|Frost Cave|Upper Edge Tunnel,$can_space_jump,$can_missile",
           "@Phendrana Drifts/Phendrana's Edge,@doors/Phendrana Drifts/WaveBeam"
         ]
@@ -713,7 +713,7 @@
       {
         "name": "West Tower Entrance",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Observatory,$can_open|Phendrana Drifts|Observatory|West Tower Entrance,[$can_combat_labs],$_can_climb_observatory_via_puzzle",
           "@Phendrana Drifts/Observatory,$can_open|Phendrana Drifts|Observatory|West Tower Entrance,[$trick|observatory_puzzle_skip|2],$can_space_jump,$can_scan",
           "@Phendrana Drifts/West Tower,$can_open|Phendrana Drifts|West Tower|West Tower Entrance"
@@ -722,7 +722,7 @@
       {
         "name": "West Tower",
         "access_rules": [
-          "NoLogic",
+          
           "@Phendrana Drifts/Control Tower,@doors/Phendrana Drifts/WaveBeam,[$can_combat_labs]",
           "@Phendrana Drifts/West Tower Entrance,$can_open|Phendrana Drifts|West Tower Entrance|West Tower"
         ]

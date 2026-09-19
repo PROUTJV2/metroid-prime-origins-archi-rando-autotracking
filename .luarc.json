@@ -3,5 +3,10 @@
     "workspace.library": [
         "C:/Users/jerem/Downloads/poptracker_0-35-4_win64/api/lua/definition"
     ],
-    "runtime.version": "Lua 5.4"
+    "runtime.version": "Lua 5.4",
+    "diagnostics.globals": [
+        "can_break_bomb_blocks",
+        "can_lay_bomb",
+        "Highlight"
+    ]
 }
