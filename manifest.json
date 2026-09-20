@@ -1,7 +1,7 @@
 {
     "name": "Metroid Prime Origins Archipelago Randomizer",
     "game_name": "Metroid Prime Origins",
-    "package_version": "1.0.0",
+    "package_version": "0.5.0",
     "package_uid": "metroid_prime_origins_ap",
     "author": "builder_script",
     "variants": {
