@@ -272,7 +272,7 @@
         "name": "Transport to Chozo Ruins East",
         "access_rules": [
           "@Tallon Overworld/Transport Tunnel C",
-          "ElevatorsNormal,@Chozo Ruins/Transport to Tallon Overworld East"
+          "@Chozo Ruins/Transport to Tallon Overworld East"
         ]
       },
       {
@@ -280,7 +280,7 @@
         "access_rules": [
           
           "@Tallon Overworld/Transport Tunnel D",
-          "ElevatorsNormal,@Chozo Ruins/Transport to Tallon Overworld South"
+          "@Chozo Ruins/Transport to Tallon Overworld South"
         ]
       },
       {
