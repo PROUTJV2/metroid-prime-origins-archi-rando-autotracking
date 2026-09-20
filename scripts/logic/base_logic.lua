@@ -5,12 +5,12 @@ function can_morph()
     return HAS("morphball")
 end
 function can_use_bomb_slots()
-    return ALL(HAS("morphballbomb"), HAS("morphball"))
+    return ANY(can_lay_bomb(), can_lay_power_bomb())
 end
-function can_boost_ball()
+function can_boost()
     return ALL(HAS("boostball"), HAS("morphball"))
 end
-function can_spider_ball()
+function can_spider()
     return ALL(HAS("spiderball"), HAS("morphball"))
 end
 function can_lay_power_bomb()
@@ -33,6 +33,9 @@ function can_grapple()
 end
 function can_beam(beam)
     return HAS(beam)
+end
+function can_charge_beam()
+    return can_beam("chargebeam")
 end
 function can_wave_beam()
     return can_beam("wavebeam")
@@ -66,6 +69,12 @@ function can_move_frigate()
 end
 function can_move_underwater()
     return ANY(can_resist_water(), can_grapple())
+end
+function can_break_glass()
+    return ANY(can_missile(), can_charge_beam())
+end
+function can_screw_attack()
+    return HAS("screwattack")
 end
 -- function <name> (<parameters if needed>)
 --     <actual code>

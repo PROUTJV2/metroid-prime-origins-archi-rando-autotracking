@@ -22,25 +22,23 @@
             {
                 "name": "Arboretum Access",
                 "access_rules": [
-                    "@Chozo Ruins/Arboretum,$can_open|Chozo Ruins|Arboretum|Arboretum Access",
-                    "@Chozo Ruins/Ruined Fountain,$can_open|Chozo Ruins|Ruined Fountain|Arboretum Access"
+                    "@Chozo Ruins/Arboretum, $can_missile",
+                    "@Chozo Ruins/Ruined Fountain"
                 ]
             },
             {
                 "name": "Arboretum",
                 "access_rules": [
-                    "StartingRoomArboretum",
-                    "@Chozo Ruins/Arboretum Access,$can_open|Chozo Ruins|Arboretum Access|Arboretum",
-                    "@Chozo Ruins/Gathering Hall Access,$can_open|Chozo Ruins|Gathering Hall Access|Arboretum",
-                    "@Chozo Ruins/Sunchamber Lobby,$can_open|Chozo Ruins|Sunchamber Lobby|Arboretum,False"
+                    "@Chozo Ruins/Arboretum Access,$can_missile",
+                    "@Chozo Ruins/Gathering Hall Access,$can_missile",
+                    "@Chozo Ruins/Sunchamber Lobby,$can_missile"
                 ]
             },
             {
                 "name": "Burn Dome Access",
                 "access_rules": [
-                    "@Chozo Ruins/Burn Dome,$can_open|Chozo Ruins|Burn Dome|Burn Dome Access",
-                    "@Chozo Ruins/Energy Core,$can_bomb",
-                    "@Chozo Ruins/Energy Core,$can_ball_jump"
+                    "@Chozo Ruins/Burn Dome",
+                    "@Chozo Ruins/Energy Core, $can_morph"
                 ]
             },
             {
@@ -48,7 +46,7 @@
                 "sections": [
                     {
                         "name": "Missile",
-                        "access_rules": ["$can_bomb", "$can_power_bomb|1"]
+                        "access_rules": ["$can_break_bomb_blocks"]
                     },
                     {
                         "name": "Incinerator Drone",
@@ -56,8 +54,7 @@
                     }
                 ],
                 "access_rules": [
-                    "StartingRoomBurnDome",
-                    "@Chozo Ruins/Burn Dome Access,$can_open|Chozo Ruins|Burn Dome Access|Burn Dome,$can_bomb"
+                    "@Chozo Ruins/Burn Dome Access"
                 ]
             },
             {
@@ -95,8 +92,7 @@
                 "name": "Dynamo Access",
                 "access_rules": [
                     "@Chozo Ruins/Dynamo",
-                    "@Chozo Ruins/Watery Hall,$can_open|Chozo Ruins|Watery Hall|Dynamo Access,$can_scan,$can_power_bomb",
-                    "@Chozo Ruins/Watery Hall,$can_open|Chozo Ruins|Watery Hall|Dynamo Access,$can_scan,$can_bomb"
+                    "@Chozo Ruins/Watery Hall,$can_missile, $can_break_bomb_blocks"
                 ]
             },
             {
@@ -104,21 +100,23 @@
                 "sections": [
                     {
                         "name": "Bottom",
-                        "access_rules": ["$can_missile", "{}"]
+                        "access_rules": ["$can_missile"]
                     },
                     {
                         "name": "Top",
-                        "access_rules": ["$can_spider"]
+                        "access_rules": [
+                            "$can_spider",
+                            "$can_high_ledge" 
+                        ]
                     }
                 ],
-                "access_rules": ["@Chozo Ruins/Dynamo Access"]
+                "access_rules": ["@Chozo Ruins/Dynamo Access, $can_missile"]
             },
             {
                 "name": "East Atrium",
                 "access_rules": [
                     "@Chozo Ruins/Energy Core Access",
-                    "@Chozo Ruins/Gathering Hall,$can_open|Chozo Ruins|Gathering Hall|East Atrium,$can_morph_ball",
-                    "@Chozo Ruins/Gathering Hall,$can_open|Chozo Ruins|Gathering Hall|East Atrium,$can_space_jump"
+                    "@Chozo Ruins/Gathering Hall,$can_morph"
                 ]
             },
             {
@@ -153,15 +151,14 @@
                 "name": "Energy Core Access",
                 "access_rules": [
                     "@Chozo Ruins/East Atrium",
-                    "@Chozo Ruins/Energy Core,$can_open|Chozo Ruins|Energy Core|Energy Core Access"
+                    "@Chozo Ruins/Energy Core"
                 ]
             },
             {
                 "name": "Energy Core",
                 "access_rules": [
-                    "@Chozo Ruins/Burn Dome Access,$can_bomb",
-                    "@Chozo Ruins/Burn Dome Access,$can_ball_jump",
-                    "@Chozo Ruins/Energy Core Access,$can_open|Chozo Ruins|Energy Core Access|Energy Core",
+                    "@Chozo Ruins/Burn Dome Access,$can_morph",
+                    "@Chozo Ruins/Energy Core Access",
                     "@Chozo Ruins/West Furnace Access"
                 ]
             },
@@ -202,8 +199,8 @@
             {
                 "name": "Gathering Hall Access",
                 "access_rules": [
-                    "@Chozo Ruins/Arboretum,$can_open|Chozo Ruins|Arboretum|Gathering Hall Access",
-                    "@Chozo Ruins/Gathering Hall,$can_open|Chozo Ruins|Gathering Hall|Gathering Hall Access"
+                    "@Chozo Ruins/Arboretum,$can_missile",
+                    "@Chozo Ruins/Gathering Hall"
                 ]
             },
             {
@@ -212,18 +209,16 @@
                     {
                         "name": "Behind Bomb Blocks",
                         "access_rules": [
-                            "$can_space_jump,$can_bomb",
-                            "$can_space_jump,$can_power_bomb",
-                            "[$trick|gathering_hall_without_space_jump|1],$can_bomb",
-                            "{SpaceJump}"
+                            "$can_break_bomb_blocks",
+                            "{$can_morph}"
                         ]
                     }
                 ],
                 "access_rules": [
-                    "@Chozo Ruins/East Atrium,$can_open|Chozo Ruins|East Atrium|Gathering Hall",
+                    "@Chozo Ruins/East Atrium,$can_morph",
                     "@Chozo Ruins/Gathering Hall Access",
-                    "@Chozo Ruins/Save Station 2,$can_open|Chozo Ruins|Save Station 2|Gathering Hall",
-                    "@Chozo Ruins/Watery Hall Access,$can_open|Chozo Ruins|Watery Hall Access|Gathering Hall"
+                    "@Chozo Ruins/Save Station 2,$can_missile",
+                    "@Chozo Ruins/Watery Hall Access"
                 ]
             },
             {
@@ -294,7 +289,10 @@
                     },
                     {
                         "name": "Super Missile Blocks",
-                        "access_rules": ["$can_missile, $can_high_ledge"]
+                        "access_rules": [
+                            "$can_missile, $can_high_ledge",
+                            "$can_missile, $can_spider"
+                    ]
                     },
                     {
                         "name": "Lower Ledge",
@@ -352,9 +350,8 @@
             {
                 "name": "Plaza Access",
                 "access_rules": [
-                    "@Chozo Ruins/Main Plaza,False",
-                    "@Chozo Ruins/Main Plaza,[$trick|vault_via_plaza|1],$can_space_jump",
-                    "@Chozo Ruins/Vault,$can_open|Chozo Ruins|Vault|Plaza Access"
+                    "@Chozo Ruins/Main Plaza, $can_wave_beam",
+                    "@Chozo Ruins/Vault"
                 ]
             },
             {
@@ -379,7 +376,7 @@
             {
                 "name": "Ruined Fountain Access",
                 "access_rules": [
-                    "@Chozo Ruins/Main Plaza,$can_open|Chozo Ruins|Main Plaza|Ruined Fountain Access",
+                    "@Chozo Ruins/Main Plaza,$can_morph",
                     "@Chozo Ruins/Ruined Fountain"
                 ]
             },
@@ -389,16 +386,14 @@
                     {
                         "name": "Top Right Tunnel",
                         "access_rules": [
-                            "@Chozo Ruins/Sunchamber/Flaahgra,$can_spider",
-                            "{}"
+                            "@Chozo Ruins/Sunchamber/Flaahgra,$can_spider"
                         ]
                     }
                 ],
                 "access_rules": [
-                    "StartingRoomRuinedFountain",
-                    "@Chozo Ruins/Arboretum Access,$can_open|Chozo Ruins|Arboretum Access|Ruined Fountain",
-                    "@Chozo Ruins/Meditation Fountain,$can_open|Chozo Ruins|Meditation Fountain|Ruined Fountain",
-                    "@Chozo Ruins/Ruined Fountain Access,$can_morph_ball"
+                    "@Chozo Ruins/Arboretum Access",
+                    "@Chozo Ruins/Meditation Fountain",
+                    "@Chozo Ruins/Ruined Fountain Access"
                 ]
             },
             {
@@ -415,7 +410,7 @@
                 ],
                 "access_rules": [
                     "@Chozo Ruins/Map Station",
-                    "@Chozo Ruins/North Atrium,$can_open|Chozo Ruins|North Atrium|Ruined Gallery",
+                    "@Chozo Ruins/North Atrium",
                     "@Chozo Ruins/Totem Access"
                 ]
             },
@@ -425,7 +420,7 @@
                     {
                         "name": "Tunnel",
                         "access_rules": [
-                            "can_break_bomb_blocks()"
+                            "$can_break_bomb_blocks"
                         ]
                     }
                 ],
@@ -438,7 +433,7 @@
             {
                 "name": "Ruined Shrine Access",
                 "access_rules": [
-                    "@Chozo Ruins/Main Plaza",
+                    "@Chozo Ruins/Main Plaza, $can_missile",
                     "@Chozo Ruins/Ruined Shrine"
                 ]
             },
@@ -452,7 +447,7 @@
                     },
                     {
                         "name": "Ceiling",
-                        "access_rules": ["$can_boost_ball"]
+                        "access_rules": ["$can_boost"]
                     },
                     {
                         "name": "Tunnel",
@@ -633,7 +628,6 @@
                 ],
                 "access_rules": [
                     "@Chozo Ruins/Hive Totem,$can_missile",
-                    "@Chozo Ruins/Hive Totem,$can_open|Chozo Ruins|Hive Totem|Transport Access North,RemoveHiveMecha",
                     "@Chozo Ruins/Transport to Magmoor Caverns North"
                 ]
             },
@@ -651,8 +645,8 @@
                 "name": "Transport to Magmoor Caverns North",
                 "access_rules": [
                     "@Chozo Ruins/Sun Tower",
-                    "@Chozo Ruins/Transport Access North,$can_open|Chozo Ruins|Transport Access North|Transport to Magmoor Caverns North,$can_morph_ball",
-                    "@Chozo Ruins/Vault Access,$can_open|Chozo Ruins|Vault Access|Transport to Magmoor Caverns North,$can_morph_ball",
+                    "@Chozo Ruins/Transport Access North",
+                    "@Chozo Ruins/Vault Access",
                     "ElevatorsNormal,@Magmoor Caverns/Transport to Chozo Ruins North,$can_access_elevators",
                     "ElevatorsRandom,ChozoRuinsTransportToMagmoorCavernsNorth"
                 ]
@@ -684,8 +678,8 @@
             {
                 "name": "Vault Access",
                 "access_rules": [
-                    "@Chozo Ruins/Transport to Magmoor Caverns North,$can_open|Chozo Ruins|Transport to Magmoor Caverns North|Vault Access",
-                    "@Chozo Ruins/Vault"
+                    "@Chozo Ruins/Transport to Magmoor Caverns North",
+                    "@Chozo Ruins/Vault, $can_morph"
                 ]
             },
             {
@@ -693,12 +687,12 @@
                 "sections": [
                     {
                         "name": "Vault Chamber",
-                        "access_rules": ["$can_bomb", "{}"]
+                        "access_rules": ["$can_use_bomb_slots"]
                     }
                 ],
                 "access_rules": [
-                    "@Chozo Ruins/Plaza Access,$can_open|Chozo Ruins|Plaza Access|Vault",
-                    "@Chozo Ruins/Vault Access,$can_morph_ball"
+                    "@Chozo Ruins/Plaza Access",
+                    "@Chozo Ruins/Vault Access,$can_morph"
                 ]
             },
             {
@@ -706,12 +700,12 @@
                 "sections": [
                     {
                         "name": "Behind Missile Blocks",
-                        "access_rules": ["$can_missile", "{XRayVisor}"]
+                        "access_rules": ["$can_missile"]
                     }
                 ],
                 "access_rules": [
-                    "@Chozo Ruins/Gathering Hall,$can_open|Chozo Ruins|Gathering Hall|Watery Hall Access",
-                    "@Chozo Ruins/Watery Hall,$can_open|Chozo Ruins|Watery Hall|Watery Hall Access"
+                    "@Chozo Ruins/Gathering Hall",
+                    "@Chozo Ruins/Watery Hall,$can_missile"
                 ]
             },
             {
@@ -720,23 +714,19 @@
                     {
                         "name": "Top",
                         "chest_unopened_img": "images/items/chargebeam.png",
-                        "access_rules": ["$can_scan", "{}"]
+                        "access_rules": []
                     },
                     {
                         "name": "Underwater Tunnel",
                         "access_rules": [
-                            "$can_move_underwater,$can_space_jump,@rules/can_flaahgra",
-                            "[$trick|watery_hall_no_gravity|1],$can_space_jump",
-                            "[$trick|watery_hall_no_gravity_no_space_jump|2]",
-                            "{TricksEasy,ScanVisor,EnergyTank}",
-                            "{SpaceJump,ScanVisor,EnergyTank}"
+                            "$can_move_underwater",
+                            "{}"
                         ]
                     }
                 ],
                 "access_rules": [
-                    "@Chozo Ruins/Dynamo Access,$can_open|Chozo Ruins|Dynamo Access|Watery Hall,$can_bomb",
-                    "@Chozo Ruins/Dynamo Access,$can_open|Chozo Ruins|Dynamo Access|Watery Hall,$can_power_bomb|1",
-                    "@Chozo Ruins/Watery Hall Access,$can_open|Chozo Ruins|Watery Hall Access|Watery Hall"
+                    "@Chozo Ruins/Dynamo Access,$can_break_bomb_blocks, $can_missile",
+                    "@Chozo Ruins/Watery Hall Access,$can_missile"
                 ]
             },
             {
