@@ -1,308 +1,283 @@
 [
-  {
-    "name": "Magmoor Caverns",
-    "chest_unopened_img": "images/items/missileexpansion.png",
-    "chest_opened_img": "images/checked.png",
-    "children": [
-      {
-        "name": "Burning Trail",
-        "access_rules": [
-          "@Magmoor Caverns/Lake Tunnel",
-          "@Magmoor Caverns/Save Station Magmoor A,$can_missile",
-          "@Magmoor Caverns/Transport to Chozo Ruins North"
+    {
+        "name": "Magmoor Caverns",
+        "chest_unopened_img": "images/items/missileexpansion.png",
+        "chest_opened_img": "images/checked.png",
+        "children": [
+            {
+                "name": "Burning Trail",
+                "access_rules": [
+                    "@Magmoor Caverns/Lake Tunnel",
+                    "@Magmoor Caverns/Save Station Magmoor A,$can_missile",
+                    "@Magmoor Caverns/Transport to Chozo Ruins North"
+                ]
+            },
+            {
+                "name": "Fiery Shores",
+                "sections": [
+                    {
+                        "name": "Top Left Tunnel",
+                        "access_rules": ["$can_morph"]
+                    },
+                    {
+                        "name": "from Warrior Shrine",
+                        "chest_unopened_img": "images/items/powerbombexpansion.png",
+                        "access_rules": [
+                            "$can_lay_power_bomb,@Magmoor Caverns/Warrior Shrine"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Shore Tunnel",
+                    "@Magmoor Caverns/Transport Tunnel B",
+                    "@Magmoor Caverns/Warrior Shrine, $can_lay_power_bomb"
+                ]
+            },
+            {
+                "name": "Geothermal Core",
+                "access_rules": [
+                    "@Magmoor Caverns/North Core Tunnel",
+                    "@Magmoor Caverns/Plasma Processing",
+                    "@Magmoor Caverns/South Core Tunnel"
+                ]
+            },
+            {
+                "name": "Lake Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Burning Trail, $can_resist_heat",
+                    "@Magmoor Caverns/Lava Lake"
+                ]
+            },
+            {
+                "name": "Lava Lake",
+                "sections": [
+                    {
+                        "name": "Rock Spire",
+                        "chest_unopened_img": "images/items/artifacts0.png",
+                        "access_rules": ["$can_missile"]
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Lake Tunnel",
+                    "@Magmoor Caverns/Pit Tunnel"
+                ]
+            },
+            {
+                "name": "Magmoor Workstation",
+                "sections": [
+                    {
+                        "name": "Lava",
+                        "chest_unopened_img": "images/items/energytank.png",
+                        "access_rules": [
+                            "$can_break_bomb_blocks, $can_spider, $can_boost",
+                            "{}"
+                        ]
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/South Core Tunnel",
+                    "@Magmoor Caverns/Transport Tunnel C",
+                    "@Magmoor Caverns/Workstation Tunnel"
+                ]
+            },
+            {
+                "name": "Monitor Station",
+                "access_rules": [
+                    "@Magmoor Caverns/Monitor Tunnel",
+                    "@Magmoor Caverns/Shore Tunnel",
+                    "@Magmoor Caverns/Transport Tunnel A, $can_morph",
+                    "@Magmoor Caverns/Warrior Shrine"
+                ]
+            },
+            {
+                "name": "Monitor Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Monitor Station",
+                    "@Magmoor Caverns/Triclops Pit"
+                ]
+            },
+            {
+                "name": "North Core Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Geothermal Core",
+                    "@Magmoor Caverns/Twin Fires"
+                ]
+            },
+            {
+                "name": "Pit Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Lava Lake, $can_break_bomb_blocks",
+                    "@Magmoor Caverns/Triclops Pit,$can_morph"
+                ]
+            },
+            {
+                "name": "Plasma Processing",
+                "sections": [
+                    {
+                        "name": "Plasma Chamber",
+                        "chest_unopened_img": "images/items/plasmabeam.png"
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Geothermal Core, $can_morph, $can_break_bomb_blocks, $can_boost, $can_grapple, $can_ice_beam"
+                ]
+            },
+            {
+                "name": "Save Station Magmoor A",
+                "access_rules": ["@Magmoor Caverns/Burning Trail,$can_missile"]
+            },
+            {
+                "name": "Save Station Magmoor B",
+                "access_rules": [
+                    "@Magmoor Caverns/Transport to Phendrana Drifts South,$can_missile"
+                ]
+            },
+            {
+                "name": "Shore Tunnel",
+                "sections": [
+                    {
+                        "name": "Glass Tube",
+                        "chest_unopened_img": "images/items/icespreader.png",
+                        "access_rules": ["$can_lay_power_bomb"]
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Fiery Shores",
+                    "@Magmoor Caverns/Monitor Station"
+                ]
+            },
+            {
+                "name": "South Core Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Geothermal Core",
+                    "@Magmoor Caverns/Magmoor Workstation"
+                ]
+            },
+            {
+                "name": "Storage Cavern",
+                "sections": [
+                    {
+                        "name": "Storage Missile"
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Triclops Pit,$can_open|Magmoor Caverns|Triclops Pit|Storage Cavern,$can_heat,$can_morph_ball"
+                ]
+            },
+            {
+                "name": "Transport to Chozo Ruins North",
+                "access_rules": [
+                    "@Magmoor Caverns/Burning Trail",
+                    "@Chozo Ruins/Transport to Magmoor Caverns North"
+                ]
+            },
+            {
+                "name": "Transport to Phazon Mines West",
+                "access_rules": [
+                    "@Magmoor Caverns/Workstation Tunnel, $can_ice_beam, $can_lay_power_bomb",
+                    "@Phazon Mines/Transport to Magmoor Caverns South"
+                ]
+            },
+            {
+                "name": "Transport to Phendrana Drifts North",
+                "access_rules": [
+                    "@Magmoor Caverns/Transport Tunnel A, $can_morph",
+                    "@Phendrana Drifts/Transport to Magmoor Caverns West"
+                ]
+            },
+            {
+                "name": "Transport to Phendrana Drifts South",
+                "access_rules": [
+                    "@Magmoor Caverns/Save Station Magmoor B, $can_missile",
+                    "@Magmoor Caverns/Transport Tunnel C",
+                    "@Phendrana Drifts/Transport to Magmoor Caverns South"
+                ]
+            },
+            {
+                "name": "Transport to Tallon Overworld West",
+                "access_rules": [
+                    "@Magmoor Caverns/Transport Tunnel B $can_resist_heat",
+                    "@Magmoor Caverns/Twin Fires Tunnel,$can_resist_heat",
+                    "@Tallon Overworld/Transport to Magmoor Caverns East"
+                ]
+            },
+            {
+                "name": "Transport Tunnel A",
+                "sections": [
+                    {
+                        "name": "Tunnel",
+                        "chest_unopened_img": "images/items/energytank.png",
+                        "access_rules": []
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Monitor Station,$can_morph",
+                    "@Magmoor Caverns/Transport to Phendrana Drifts North,$can_resist_heat, $can_morph"
+                ]
+            },
+            {
+                "name": "Transport Tunnel B",
+                "access_rules": [
+                    "@Magmoor Caverns/Fiery Shores,$can_morph",
+                    "@Magmoor Caverns/Transport to Tallon Overworld West, $can_resist_heat"
+                ]
+            },
+            {
+                "name": "Transport Tunnel C",
+                "access_rules": [
+                    "@Magmoor Caverns/Magmoor Workstation, $can_high_ledge",
+                    "@Magmoor Caverns/Transport to Phendrana Drifts South, $can_resist_heat"
+                ]
+            },
+            {
+                "name": "Triclops Pit",
+                "sections": [
+                    {
+                        "name": "Top Ledge",
+                        "access_rules": ["$can_high_ledge, $can_missile"]
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Monitor Tunnel",
+                    "@Magmoor Caverns/Pit Tunnel",
+                    "@Magmoor Caverns/Storage Cavern,$can_break_bomb_blocks"
+                ]
+            },
+            {
+                "name": "Twin Fires Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Transport to Tallon Overworld West,$can_resist_heat",
+                    "@Magmoor Caverns/Twin Fires, $can_spider",
+                    "@Magmoor Caverns/Twin Fires, $can_grapple, $can_morph"
+                ]
+            },
+            {
+                "name": "Twin Fires",
+                "access_rules": [
+                    "@Magmoor Caverns/North Core Tunnel",
+                    "@Magmoor Caverns/Twin Fires Tunnel"
+                ]
+            },
+            {
+                "name": "Warrior Shrine",
+                "sections": [
+                    {
+                        "name": "Statue",
+                        "chest_unopened_img": "images/items/artifacts0.png"
+                    }
+                ],
+                "access_rules": [
+                    "@Magmoor Caverns/Monitor Station,$can_boost, $can_space_jump",
+                    "@Magmoor Caverns/Monitor Station,$can_grapple"
+                ]
+            },
+            {
+                "name": "Workstation Tunnel",
+                "access_rules": [
+                    "@Magmoor Caverns/Magmoor Workstation, $can_high_ledge",
+                    "@Magmoor Caverns/Transport to Phazon Mines West, $can_lay_power_bomb, $can_ice_beam, $can_resist_heat"
+                ]
+            }
         ]
-      },
-      {
-        "name": "Fiery Shores",
-        "sections": [
-          {
-            "name": "Top Left Tunnel",
-            "access_rules": [
-              "$can_morph"
-            ]
-          },
-          {
-            "name": "from Warrior Shrine",
-            "chest_unopened_img": "images/items/powerbombexpansion.png",
-            "access_rules": [
-              "$can_lay_power_bomb,@Magmoor Caverns/Warrior Shrine"
-            ]
-          }
-        ],
-        "access_rules": [
-          "@Magmoor Caverns/Shore Tunnel",
-          "@Magmoor Caverns/Transport Tunnel B",
-          "@Magmoor Caverns/Warrior Shrine, $can_lay_power_bomb"
-        ]
-      },
-      {
-        "name": "Geothermal Core",
-        "access_rules": [
-          "@Magmoor Caverns/North Core Tunnel",
-          "@Magmoor Caverns/Plasma Processing",
-          "@Magmoor Caverns/South Core Tunnel"
-        ]
-      },
-      {
-        "name": "Lake Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Burning Trail, $can_resist_heat",
-          "@Magmoor Caverns/Lava Lake"
-        ]
-      },
-      {
-        "name": "Lava Lake",
-        "sections": [
-          {
-            "name": "Rock Spire",
-            "chest_unopened_img": "images/items/artifacts0.png",
-            "access_rules": [
-              "$can_missile"
-            ]
-          }
-        ],
-        "access_rules": [
-          "@Magmoor Caverns/Lake Tunnel",
-          "@Magmoor Caverns/Pit Tunnel"
-        ]
-      },
-      {
-        "name": "Magmoor Workstation",
-        "sections": [
-          {
-            "name": "Lava",
-            "chest_unopened_img": "images/items/energytank.png",
-            "access_rules": [
-              "$can_break_bomb_blocks, $can_spider, $can_boost",
-              "{}"
-            ]
-          }
-        ],
-        "access_rules": [
-          "@Magmoor Caverns/South Core Tunnel",
-          "@Magmoor Caverns/Transport Tunnel C",
-          "@Magmoor Caverns/Workstation Tunnel"
-        ]
-      },
-      {
-        "name": "Monitor Station",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Monitor Tunnel",
-          "@Magmoor Caverns/Shore Tunnel",
-          "@Magmoor Caverns/Transport Tunnel A, $can_morph",
-          "@Magmoor Caverns/Warrior Shrine"
-        ]
-      },
-      {
-        "name": "Monitor Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Monitor Station",
-          "@Magmoor Caverns/Triclops Pit"
-        ]
-      },
-      {
-        "name": "North Core Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Geothermal Core",
-          "@Magmoor Caverns/Twin Fires"
-        ]
-      },
-      {
-        "name": "Pit Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Lava Lake, $can_break_bomb_blocks",
-          "@Magmoor Caverns/Triclops Pit,$can_morph"
-        ]
-      },
-      {
-        "name": "Plasma Processing",
-        "sections": [
-          {
-            "name":"Plasma Chamber",
-            "chest_unopened_img": "images/items/plasmabeam.png"
-          }
-        ],
-        "access_rules": [
-          "@Magmoor Caverns/Geothermal Core, $can_morph, $can_break_bomb_blocks, $can_boost, $can_grapple, $can_ice_beam"
-        ]
-      },
-      {
-        "name": "Save Station Magmoor A",
-        "access_rules": [
-          "@Magmoor Caverns/Burning Trail,$can_missile"
-        ]
-      },
-      {
-        "name": "Save Station Magmoor B",
-        "access_rules": [
-          "@Magmoor Caverns/Transport to Phendrana Drifts South,$can_missile"
-        ]
-      },
-      {
-        "name": "Shore Tunnel",
-        "sections": [
-          {
-            "name": "Glass Tube",
-            "chest_unopened_img": "images/items/icespreader.png",
-            "access_rules": [
-              "$can_lay_power_bomb"
-            ]
-          }
-        ],
-        "access_rules": [
-          
-          "@Magmoor Caverns/Fiery Shores",
-          "@Magmoor Caverns/Monitor Station"
-        ]
-      },
-      {
-        "name": "South Core Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Geothermal Core",
-          "@Magmoor Caverns/Magmoor Workstation"
-        ]
-      },
-      {
-        "name": "Storage Cavern",
-        "sections": [
-          {
-            "name":"Storage Missile"
-          }
-        ],
-        "access_rules": [
-          
-          "@Magmoor Caverns/Triclops Pit,$can_open|Magmoor Caverns|Triclops Pit|Storage Cavern,$can_heat,$can_morph_ball"
-        ]
-      },
-      {
-        "name": "Transport to Chozo Ruins North",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Burning Trail",
-          "@Chozo Ruins/Transport to Magmoor Caverns North"
-        ]
-      },
-      {
-        "name": "Transport to Phazon Mines West",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Workstation Tunnel, $can_ice_beam, $can_lay_power_bomb",
-          "@Phazon Mines/Transport to Magmoor Caverns South"
-        ]
-      },
-      {
-        "name": "Transport to Phendrana Drifts North",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Transport Tunnel A, $can_morph",
-          "@Phendrana Drifts/Transport to Magmoor Caverns West"
-        ]
-      },
-      {
-        "name": "Transport to Phendrana Drifts South",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Save Station Magmoor B, $can_missile",
-          "@Magmoor Caverns/Transport Tunnel C",
-          "@Phendrana Drifts/Transport to Magmoor Caverns South"
-        ]
-      },
-      {
-        "name": "Transport to Tallon Overworld West",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Transport Tunnel B $can_resist_heat",
-          "@Magmoor Caverns/Twin Fires Tunnel,$can_resist_heat",
-          "@Tallon Overworld/Transport to Magmoor Caverns East"
-        ]
-      },
-      {
-        "name": "Transport Tunnel A",
-        "sections": [
-          {
-            "name": "Tunnel",
-            "chest_unopened_img": "images/items/energytank.png",
-            "access_rules": [
-            ]
-          }
-        ],
-        "access_rules": [
-          
-          "@Magmoor Caverns/Monitor Station,$can_morph",
-          "@Magmoor Caverns/Transport to Phendrana Drifts North,$can_resist_heat, $can_morph"
-        ]
-      },
-      {
-        "name": "Transport Tunnel B",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Fiery Shores,$can_morph",
-          "@Magmoor Caverns/Transport to Tallon Overworld West, $can_resist_heat"
-        ]
-      },
-      {
-        "name": "Transport Tunnel C",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Magmoor Workstation, $can_high_ledge",
-          "@Magmoor Caverns/Transport to Phendrana Drifts South, $can_resist_heat"
-        ]
-      },
-      {
-        "name": "Triclops Pit",
-        "sections": [
-          {
-            "name": "Top Ledge",
-            "access_rules": [
-              "$can_high_ledge, $can_missile"
-            ]
-          }
-        ],
-        "access_rules": [
-          
-          "@Magmoor Caverns/Monitor Tunnel",
-          "@Magmoor Caverns/Pit Tunnel",
-          "@Magmoor Caverns/Storage Cavern,$can_break_bomb_blocks"
-        ]
-      },
-      {
-        "name": "Twin Fires Tunnel",
-        "access_rules": [
-          
-          "@Magmoor Caverns/Transport to Tallon Overworld West,$can_resist_heat",
-          "@Magmoor Caverns/Twin Fires, $can_spider",
-          "@Magmoor Caverns/Twin Fires, $can_grapple, $can_morph"
-        ]
-      },
-      {
-        "name": "Twin Fires",
-        "access_rules": [
-          
-          "@Magmoor Caverns/North Core Tunnel",
-          "@Magmoor Caverns/Twin Fires Tunnel"
-        ]
-      },
-      {
-        "name": "Warrior Shrine",
-        "sections": [
-          {
-            "name": "Statue",
-            "chest_unopened_img": "images/items/artifacts0.png"
-          }
-        ],
-        "access_rules": [
-          "@Magmoor Caverns/Monitor Station,$can_boost, $can_space_jump",
-          "@Magmoor Caverns/Monitor Station,$can_grapple"
-        ]
-      },
-      {
-        "name": "Workstation Tunnel",
-        "access_rules": [
-          "@Magmoor Caverns/Magmoor Workstation, $can_high_ledge",
-          "@Magmoor Caverns/Transport to Phazon Mines West, $can_lay_power_bomb, $can_ice_beam, $can_resist_heat"
-        ]
-      }
-    ]
-  }
+    }
 ]
