@@ -161,7 +161,7 @@
                     }
                 ],
                 "access_rules": [
-                    "@Magmoor Caverns/Triclops Pit,$can_open|Magmoor Caverns|Triclops Pit|Storage Cavern,$can_heat,$can_morph_ball"
+                    "@Magmoor Caverns/Triclops Pit,$can_break_bomb_blocks"
                 ]
             },
             {
