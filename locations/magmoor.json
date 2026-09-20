@@ -18,30 +18,21 @@
           {
             "name": "Top Left Tunnel",
             "access_rules": [
-              
-              "$can_bomb",
-              "$can_ball_jump",
-              "[$trick|fiery_shores_morphball_track_sj|1],$can_space_jump",
-              "{}"
+              "$can_morph"
             ]
           },
           {
             "name": "from Warrior Shrine",
             "chest_unopened_img": "images/items/powerbombexpansion.png",
             "access_rules": [
-              
-              "$can_power_bomb,$can_bomb,@Magmoor Caverns/Warrior Shrine",
-              "Softlocks,$can_bomb,@Magmoor Caverns/Warrior Shrine,[]"
+              "$can_lay_power_bomb,@Magmoor Caverns/Warrior Shrine"
             ]
           }
         ],
         "access_rules": [
-          
-          "@Magmoor Caverns/Shore Tunnel,$can_heat",
-          "@Magmoor Caverns/Transport Tunnel B,$can_open|Magmoor Caverns|Transport Tunnel B|Fiery Shores,$can_heat,$can_morph_ball",
-          "@Magmoor Caverns/Transport Tunnel B,$can_open|Magmoor Caverns|Transport Tunnel B|Fiery Shores,[$trick|transport_tunnel_b_damage_boost|1],$can_heat",
-          "@Magmoor Caverns/Warrior Shrine,$can_heat,$can_power_bomb,$can_bomb",
-          "@Magmoor Caverns/Warrior Shrine,$can_heat,$can_power_bomb,$can_ball_jump"
+          "@Magmoor Caverns/Shore Tunnel",
+          "@Magmoor Caverns/Transport Tunnel B",
+          "@Magmoor Caverns/Warrior Shrine, $can_lay_power_bomb"
         ]
       },
       {
