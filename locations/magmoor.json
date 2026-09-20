@@ -69,7 +69,7 @@
                         "name": "Lava",
                         "chest_unopened_img": "images/items/energytank.png",
                         "access_rules": [
-                            "$can_break_bomb_blocks, $can_spider, $can_boost",
+                            "$can_break_bomb_blocks, $can_spider, $can_wave",
                             "{}"
                         ]
                     }
@@ -246,9 +246,9 @@
             {
                 "name": "Twin Fires Tunnel",
                 "access_rules": [
-                    "@Magmoor Caverns/Transport to Tallon Overworld West,$can_resist_heat",
-                    "@Magmoor Caverns/Twin Fires, $can_spider",
-                    "@Magmoor Caverns/Twin Fires, $can_grapple, $can_morph"
+                    "@Magmoor Caverns/Transport to Tallon Overworld West,$can_resist_heat, $can_spider",
+                    "@Magmoor Caverns/Transport to Tallon Overworld West,$can_resist_heat, $can_grapple, $can_morph",
+                    "@Magmoor Caverns/Twin Fires"
                 ]
             },
             {
