@@ -100,7 +100,7 @@
                 "name": "North Core Tunnel",
                 "access_rules": [
                     "@Magmoor Caverns/Geothermal Core",
-                    "@Magmoor Caverns/Twin Fires"
+                    "@Magmoor Caverns/Twin Fires, $can_wave_beam"
                 ]
             },
             {
